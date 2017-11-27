@@ -1,0 +1,61 @@
+.ipynb_checkpoints/*
+
+Vagrantfile
+.vagrant/*
+old/*
+private/*
+node_modules/*
+
+launchConfigurations/
+*.ipr
+*.iml
+*.iws
+*.flags.json
+npm-debug.log
+web/
+lib/*.zip
+version.properties
+.sass-cache
+swagger-ui.sublime-workspace
+.idea
+.project
+/nbproject/private/
+dist/specs/
+test/specs/local/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
