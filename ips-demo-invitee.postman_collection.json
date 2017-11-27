@@ -79,7 +79,7 @@
 			},
 			"response": [
 				{
-					"id": "5fefcec5-62f0-483e-ae12-f4b66c3985c2",
+					"id": "73e5d2bd-759f-4e7e-8ec8-be736b427451",
 					"name": "20170106",
 					"originalRequest": {
 						"method": "POST",
@@ -224,7 +224,7 @@
 					"body": "{\"tempobj\":[{\"id\":\"b286c218b2dc1fef229c650e74db1e3c\",\"name\":\"test\",\"expiration\":\"2017-01-07T02:13:01.000Z\",\"tempobjref\":{\"mime\":\"application/octet-stream\",\"puturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=37498aa4d6d7f55356391cb66dd168a45d603062&temp_url_expires=1483755181\",\"geturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=fa144790cd2c00a67f5ef3625cbd1bdba6471000&temp_url_expires=1483755181\"}}]}"
 				},
 				{
-					"id": "8ee035cc-ecc4-4940-bb8a-2c9e278c595c",
+					"id": "d2e7d4ad-662a-432b-a68b-d1384c37835a",
 					"name": "20160106",
 					"originalRequest": {
 						"method": "POST",
@@ -443,7 +443,7 @@
 			},
 			"response": [
 				{
-					"id": "95bcecb8-776f-41a0-b64b-bebcb5750329",
+					"id": "88124dd3-28dc-4e71-85ea-222a509db8c1",
 					"name": "20170106",
 					"originalRequest": {
 						"method": "POST",
@@ -588,7 +588,7 @@
 					"body": "{\"tempobj\":[{\"id\":\"b286c218b2dc1fef229c650e74db1e3c\",\"name\":\"test\",\"expiration\":\"2017-01-07T02:13:01.000Z\",\"tempobjref\":{\"mime\":\"application/octet-stream\",\"puturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=37498aa4d6d7f55356391cb66dd168a45d603062&temp_url_expires=1483755181\",\"geturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=fa144790cd2c00a67f5ef3625cbd1bdba6471000&temp_url_expires=1483755181\"}}]}"
 				},
 				{
-					"id": "6fdd14ac-b1bf-48e7-b30c-84a0f976f4b3",
+					"id": "8b59623e-cc1d-478d-b8f9-ed5ee2ccb537",
 					"name": "20160106",
 					"originalRequest": {
 						"method": "POST",
@@ -807,7 +807,7 @@
 			},
 			"response": [
 				{
-					"id": "44198581-6c24-4f6a-b9a1-db79b3babf37",
+					"id": "1c324c46-3292-4a08-ba22-dc822a8ad0d7",
 					"name": "20170106",
 					"originalRequest": {
 						"method": "POST",
@@ -952,7 +952,7 @@
 					"body": "{\"tempobj\":[{\"id\":\"b286c218b2dc1fef229c650e74db1e3c\",\"name\":\"test\",\"expiration\":\"2017-01-07T02:13:01.000Z\",\"tempobjref\":{\"mime\":\"application/octet-stream\",\"puturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=37498aa4d6d7f55356391cb66dd168a45d603062&temp_url_expires=1483755181\",\"geturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=fa144790cd2c00a67f5ef3625cbd1bdba6471000&temp_url_expires=1483755181\"}}]}"
 				},
 				{
-					"id": "a4ee1c1a-1469-4af3-a989-7c0919e1ad9d",
+					"id": "bbdce2ff-ae87-486b-8310-c23d0283009a",
 					"name": "20160106",
 					"originalRequest": {
 						"method": "POST",
@@ -1170,7 +1170,7 @@
 			},
 			"response": [
 				{
-					"id": "c172639c-db66-4c71-baad-b7d327e99d9c",
+					"id": "31c7aaef-ba08-480f-9ea5-60e74260fb3e",
 					"name": "20170106",
 					"originalRequest": {
 						"method": "POST",
@@ -1315,7 +1315,7 @@
 					"body": "{\"tempobj\":[{\"id\":\"b286c218b2dc1fef229c650e74db1e3c\",\"name\":\"test\",\"expiration\":\"2017-01-07T02:13:01.000Z\",\"tempobjref\":{\"mime\":\"application/octet-stream\",\"puturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=37498aa4d6d7f55356391cb66dd168a45d603062&temp_url_expires=1483755181\",\"geturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=fa144790cd2c00a67f5ef3625cbd1bdba6471000&temp_url_expires=1483755181\"}}]}"
 				},
 				{
-					"id": "6e2cbbc6-2b03-469b-8577-3e891e4a0ea7",
+					"id": "ce8eedd2-523c-4d45-a820-2ad6e95ad14c",
 					"name": "20160106",
 					"originalRequest": {
 						"method": "POST",
@@ -1533,7 +1533,7 @@
 			},
 			"response": [
 				{
-					"id": "48b2ee77-4660-4a6b-968a-7681ca7ca441",
+					"id": "783f9fad-2a11-49f1-80e6-b7d5e7fd8ffe",
 					"name": "20161216",
 					"originalRequest": {
 						"method": "GET",
@@ -1731,7 +1731,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{ \"name\": \"point query\",\r\n                \"spatial\": {\r\n                    \"type\": \"point\",\r\n                    \"point\": [\r\n                        {\r\n                            \"lat\": \"51.506\",\r\n                            \"long\": \"-0.114\"\r\n                        }\r\n                    ]\r\n                },\r\n                \"datalayer\": [\r\n                    {\r\n                        \"id\": \"25001\",\r\n                        \"temporal\": [\r\n                            [\r\n                                \"2016-02-01\"\r\n                            ]\r\n                        ]\r\n                    }\r\n                ]\r\n}"
+					"raw": "{ \"name\": \"point query\",\r\n                \"spatial\": {\r\n                    \"type\": \"point\",\r\n                    \"point\": [\r\n                        {\r\n                            \"lat\": \"41.208912\",\r\n                            \"long\": \"-73.804661\"\r\n                        }\r\n                    ]\r\n                },\r\n                \"datalayer\": [\r\n                    {\r\n                        \"id\": \"25001\",\r\n                        \"temporal\": [\r\n                            [\r\n                                \"2016-02-01\"\r\n                            ]\r\n                        ]\r\n                    }\r\n                ]\r\n}"
 				},
 				"url": {
 					"raw": "https://api.ibm.com/pairs/run/v1/queries",
@@ -1746,157 +1746,6 @@
 						"run",
 						"v1",
 						"queries"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "/queries",
-			"request": {
-				"auth": {
-					"type": "basic",
-					"basic": [
-						{
-							"key": "username",
-							"value": "ips.app@outlook.com",
-							"type": "string"
-						},
-						{
-							"key": "password",
-							"value": "ips.app1",
-							"type": "string"
-						},
-						{
-							"key": "saveHelperData",
-							"type": "any"
-						},
-						{
-							"key": "showPassword",
-							"value": false,
-							"type": "boolean"
-						}
-					]
-				},
-				"method": "GET",
-				"header": [
-					{
-						"key": "Authorization",
-						"value": "Basic cm9uZy5jaGFuZ0BsaXZlLmNvbTpwYWlyczIuZ28="
-					},
-					{
-						"key": "Accept",
-						"value": "application/json"
-					},
-					{
-						"key": "Content-Type",
-						"value": "application/json"
-					},
-					{
-						"key": "x-ibm-client-id",
-						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
-					},
-					{
-						"key": "x-ibm-client-secret",
-						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{ \"name\": \"point query\",\r\n  \"spatial\":\r\n{ \"type\": \"point\",\r\n      \"point\": [ { \"lat\": \"51.506\", \"long\": \"-0.114\" } ]\r\n},\r\n  \"datalayer\": [\r\n{ \"id\": \"5\",\r\n  \"temporal\": [ [ \"2016-02-01T00:00:00.000Z\" ] ]\r\n}\r\n  ]\r\n}"
-				},
-				"url": {
-					"raw": "https://api.ibm.com/pairs/run/v1/queries",
-					"protocol": "https",
-					"host": [
-						"api",
-						"ibm",
-						"com"
-					],
-					"path": [
-						"pairs",
-						"run",
-						"v1",
-						"queries"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "/queries?done=false",
-			"request": {
-				"auth": {
-					"type": "basic",
-					"basic": [
-						{
-							"key": "username",
-							"value": "ips.app@outlook.com",
-							"type": "string"
-						},
-						{
-							"key": "password",
-							"value": "ips.app1",
-							"type": "string"
-						},
-						{
-							"key": "saveHelperData",
-							"type": "any"
-						},
-						{
-							"key": "showPassword",
-							"value": false,
-							"type": "boolean"
-						}
-					]
-				},
-				"method": "GET",
-				"header": [
-					{
-						"key": "Authorization",
-						"value": "Basic cm9uZy5jaGFuZ0BsaXZlLmNvbTpwYWlyczIuZ28="
-					},
-					{
-						"key": "Accept",
-						"value": "application/json"
-					},
-					{
-						"key": "Content-Type",
-						"value": "application/json"
-					},
-					{
-						"key": "x-ibm-client-id",
-						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
-					},
-					{
-						"key": "x-ibm-client-secret",
-						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{ \"name\": \"point query\",\r\n  \"spatial\":\r\n{ \"type\": \"point\",\r\n      \"point\": [ { \"lat\": \"51.506\", \"long\": \"-0.114\" } ]\r\n},\r\n  \"datalayer\": [\r\n{ \"id\": \"5\",\r\n  \"temporal\": [ [ \"2016-02-01T00:00:00.000Z\" ] ]\r\n}\r\n  ]\r\n}"
-				},
-				"url": {
-					"raw": "https://api.ibm.com/pairs/run/v1/queries?done=false",
-					"protocol": "https",
-					"host": [
-						"api",
-						"ibm",
-						"com"
-					],
-					"path": [
-						"pairs",
-						"run",
-						"v1",
-						"queries"
-					],
-					"query": [
-						{
-							"key": "done",
-							"value": "false",
-							"equals": true
-						}
 					]
 				}
 			},
@@ -1982,6 +1831,223 @@
 			"response": []
 		},
 		{
+			"name": "/queries",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic cm9uZy5jaGFuZ0BsaXZlLmNvbTpwYWlyczIuZ28="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"name\": \"point query\",\r\n  \"spatial\":\r\n{ \"type\": \"point\",\r\n      \"point\": [ { \"lat\": \"51.506\", \"long\": \"-0.114\" } ]\r\n},\r\n  \"datalayer\": [\r\n{ \"id\": \"5\",\r\n  \"temporal\": [ [ \"2016-02-01T00:00:00.000Z\" ] ]\r\n}\r\n  ]\r\n}"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/queries",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"queries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/queries/{id}",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic cm9uZy5jaGFuZ0BsaXZlLmNvbTpwYWlyczIuZ28="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"name\": \"point query\",\r\n  \"spatial\":\r\n{ \"type\": \"point\",\r\n      \"point\": [ { \"lat\": \"51.506\", \"long\": \"-0.114\" } ]\r\n},\r\n  \"datalayer\": [\r\n{ \"id\": \"5\",\r\n  \"temporal\": [ [ \"2016-02-01T00:00:00.000Z\" ] ]\r\n}\r\n  ]\r\n}"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/queries",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"queries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/queries/{id}",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic cm9uZy5jaGFuZ0BsaXZlLmNvbTpwYWlyczIuZ28="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"name\": \"point query\",\r\n  \"spatial\":\r\n{ \"type\": \"point\",\r\n      \"point\": [ { \"lat\": \"51.506\", \"long\": \"-0.114\" } ]\r\n},\r\n  \"datalayer\": [\r\n{ \"id\": \"5\",\r\n  \"temporal\": [ [ \"2016-02-01T00:00:00.000Z\" ] ]\r\n}\r\n  ]\r\n}"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/queries/b8a215730176bd6f1050b93f0101f3ed",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"queries",
+						"b8a215730176bd6f1050b93f0101f3ed"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "/variables",
 			"request": {
 				"auth": {
@@ -2053,7 +2119,7 @@
 			},
 			"response": [
 				{
-					"id": "f90bd650-68c9-4bfe-9974-17e329a7f5f6",
+					"id": "2336e260-c403-47b0-840e-d7540293b247",
 					"name": "20161216",
 					"originalRequest": {
 						"method": "GET",
