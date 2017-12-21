@@ -1,15 +1,8 @@
 # ibm-ips-samples
-Sample client artifacts for the IBM PAIRS Services (IPS)
+Sample browser based client that shows how to use IPS API.
 
-* "IBM PAIRS Services: REST API Specification and Developer Guide" is available for dowonload at https://pairs.mybluemix.net/doc/IBM-PAIRS-Services-v1.pdf
-
-* IBM Marketplace entry of the IPS: https://www.ibm.com/us-en/marketplace/geospatial-big-data-analytics
-
-* IBM developerWorks API Explorer entry of the IPS: https://developer.ibm.com/api/view/pairs-prod:pairs-api
-
-* Signup URL for the IBM PAIRS Services
-https://www.ibm.com/account/us-en/signup/register.html?a=PAIRS&ctx=C001&cc=us&lc=en&trial=yes&quantity=1&catalogName=Master&partNumber=PAIRS_FREE&siteID=ECOM
-
-* Public GitHub Repository of IPS client samples: https://github.com/webchang/ibm-ips-samples
-
-* Please open GitHub issues to provide technical feedback.
+* login.jsp shows how to use noop
+* settings.jsp shows how to get settings
+* simpleQuery.jsp shows how to get datasets, datalayers, polygons and then submit a query
+* simpleJobs.jsp shows how to get status of queries if jobs are completed or not and how to get results for a completed job and overlay the results on OpenLayers map
+* import.jsp shows the simple libraries needed to run the sample and also the URL used to access the IPS API
