@@ -2,7 +2,7 @@
 	"info": {
 		"name": "ips-demo-invitee",
 		"_postman_id": "7d38ebd2-1d71-fccf-8b60-00f8e4d726bb",
-		"description": "This collection includes a sample set of API invocations to the IBM PAIRS Services.  The IBMid \"ip.app@outlook.com\" and the API key credentials used were created for demo purposes.  The IBMid is an invited subscriber of the subscription that owns the API key.  The subscription is entitled to use the datasets defined by the corpus \"demo\". ",
+		"description": "This collection includes a sample set of API invocations to the IBM PAIRS Services.  The IBMid \"ip.app@outlook.com\" and the API key credentials used were created for demo purposes.  The IBMid is an invited subscriber of the subscription that owns the API key.  The subscription is entitled to use the datasets defined by the corpus \"demo\". API specification and developer guide is available at https://pairs.mybluemix.net/doc/IBM-PAIRS-Services-v1.pdf",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -79,7 +79,7 @@
 			},
 			"response": [
 				{
-					"id": "73e5d2bd-759f-4e7e-8ec8-be736b427451",
+					"id": "83f27a42-d431-4f0b-ae85-2e04f9859c33",
 					"name": "20170106",
 					"originalRequest": {
 						"method": "POST",
@@ -224,7 +224,7 @@
 					"body": "{\"tempobj\":[{\"id\":\"b286c218b2dc1fef229c650e74db1e3c\",\"name\":\"test\",\"expiration\":\"2017-01-07T02:13:01.000Z\",\"tempobjref\":{\"mime\":\"application/octet-stream\",\"puturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=37498aa4d6d7f55356391cb66dd168a45d603062&temp_url_expires=1483755181\",\"geturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=fa144790cd2c00a67f5ef3625cbd1bdba6471000&temp_url_expires=1483755181\"}}]}"
 				},
 				{
-					"id": "d2e7d4ad-662a-432b-a68b-d1384c37835a",
+					"id": "7e6f613b-6246-4394-96c1-416767e4e5f8",
 					"name": "20160106",
 					"originalRequest": {
 						"method": "POST",
@@ -443,7 +443,7 @@
 			},
 			"response": [
 				{
-					"id": "88124dd3-28dc-4e71-85ea-222a509db8c1",
+					"id": "3dca9d90-a761-4285-addf-9d723bbd8251",
 					"name": "20170106",
 					"originalRequest": {
 						"method": "POST",
@@ -588,7 +588,371 @@
 					"body": "{\"tempobj\":[{\"id\":\"b286c218b2dc1fef229c650e74db1e3c\",\"name\":\"test\",\"expiration\":\"2017-01-07T02:13:01.000Z\",\"tempobjref\":{\"mime\":\"application/octet-stream\",\"puturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=37498aa4d6d7f55356391cb66dd168a45d603062&temp_url_expires=1483755181\",\"geturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=fa144790cd2c00a67f5ef3625cbd1bdba6471000&temp_url_expires=1483755181\"}}]}"
 				},
 				{
-					"id": "8b59623e-cc1d-478d-b8f9-ed5ee2ccb537",
+					"id": "7d662e61-0032-4cb8-97ae-67d18f244dd9",
+					"name": "20160106",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"name": "Authorization",
+								"value": "Basic d3VqZXRpZW5AZ21haWwuY29tOnBhaXJzMi5nbw=="
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "The mime type of this content"
+							},
+							{
+								"key": "x-ibm-client-id",
+								"value": "b381bc10-e0d5-468a-aebc-d91311e9bd23"
+							},
+							{
+								"key": "x-ibm-client-secret",
+								"value": "U7xI1rP5wO7rU3kC5dM7aW2oQ5uT3fJ2jD8aF7mU0wR6eH5fW3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \n\t\"name\": \"analytics square interval pql\",\n\t\"datalayer\": [\"51\"],\n\t\"spatial\": {\n  \t\t\"type\": \"rectangle\",\n  \t\t\"rectangle\": {\n  \t\t\t\"latsw\": \"-4.3\",\n  \t\t\t\"longsw\": \"109.6\",\n  \t\t\t\"latne\": 1.7,\n  \t\t\t\"longne\": 117.9\n  \t\t}\n  \t},\n  \t\"temporal\": [\"10/17/16 20:00\"],\n  \t\"pql\": \"51GT5000AND26015LT0.5\"\n}"
+						},
+						"url": {
+							"raw": "https://dev.api.ibm.com/pairs/development/v1/analytics",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"api",
+								"ibm",
+								"com"
+							],
+							"path": [
+								"pairs",
+								"development",
+								"v1",
+								"analytics"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+							"description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID",
+							"description": "Lets a server whitelist headers that browsers are allowed to access."
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "Keep-Alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": "The type of encoding used on the data."
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sat, 07 Jan 2017 02:30:43 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						},
+						{
+							"name": "X-Backside-Transport",
+							"key": "X-Backside-Transport",
+							"value": "OK OK",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-Global-Transaction-ID",
+							"key": "X-Global-Transaction-ID",
+							"value": "71015205",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-Ibm-Id",
+							"key": "X-Ibm-Id",
+							"value": "wujetien@gmail.com",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "X-RateLimit-Limit",
+							"key": "X-RateLimit-Limit",
+							"value": "name=per-minute,100;",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-RateLimit-Remaining",
+							"key": "X-RateLimit-Remaining",
+							"value": "name=per-minute,98;",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": "899",
+					"body": "{\n  \"id\": \"c91b17d4520e0bed92362b42e4172549\",\n  \"name\": \"analytics square interval pql\"\n}"
+				}
+			]
+		},
+		{
+			"name": "/settings/policy",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"value": true,
+							"type": "boolean"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n  { \"id\": \"25\",\n    \"usage\": \"filter\"\n  }\n]"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/settings",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"settings"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "489ecbe6-baa8-4b08-9590-21154c76482f",
+					"name": "20170106",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"name": "Authorization",
+								"value": "Basic d3VqZXRpZW5AZ21haWwuY29tOnBhaXJzMi5nbw=="
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "The mime type of this content"
+							},
+							{
+								"key": "x-ibm-client-id",
+								"value": "b381bc10-e0d5-468a-aebc-d91311e9bd23"
+							},
+							{
+								"key": "x-ibm-client-secret",
+								"value": "U7xI1rP5wO7rU3kC5dM7aW2oQ5uT3fJ2jD8aF7mU0wR6eH5fW3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \n\t\"name\": \"test\",\n  \"lifespan\": \"900\"\n\n}"
+						},
+						"url": {
+							"raw": "https://dev.api.ibm.com/pairs/development/v1/tempobjs",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"api",
+								"ibm",
+								"com"
+							],
+							"path": [
+								"pairs",
+								"development",
+								"v1",
+								"tempobjs"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "Keep-Alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sat, 07 Jan 2017 01:58:01 GMT",
+							"description": ""
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": ""
+						},
+						{
+							"name": "X-Backside-Transport",
+							"key": "X-Backside-Transport",
+							"value": "OK OK",
+							"description": ""
+						},
+						{
+							"name": "X-Global-Transaction-ID",
+							"key": "X-Global-Transaction-ID",
+							"value": "52083885",
+							"description": ""
+						},
+						{
+							"name": "X-Ibm-Id",
+							"key": "X-Ibm-Id",
+							"value": "wujetien@gmail.com",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Limit",
+							"key": "X-RateLimit-Limit",
+							"value": "name=per-minute,100;",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Remaining",
+							"key": "X-RateLimit-Remaining",
+							"value": "name=per-minute,99;",
+							"description": ""
+						}
+					],
+					"cookie": [],
+					"responseTime": "1517",
+					"body": "{\"tempobj\":[{\"id\":\"b286c218b2dc1fef229c650e74db1e3c\",\"name\":\"test\",\"expiration\":\"2017-01-07T02:13:01.000Z\",\"tempobjref\":{\"mime\":\"application/octet-stream\",\"puturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=37498aa4d6d7f55356391cb66dd168a45d603062&temp_url_expires=1483755181\",\"geturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=fa144790cd2c00a67f5ef3625cbd1bdba6471000&temp_url_expires=1483755181\"}}]}"
+				},
+				{
+					"id": "518d85a8-99f3-45ed-b76d-b6d81c548db0",
 					"name": "20160106",
 					"originalRequest": {
 						"method": "POST",
@@ -807,7 +1171,7 @@
 			},
 			"response": [
 				{
-					"id": "1c324c46-3292-4a08-ba22-dc822a8ad0d7",
+					"id": "8b57189b-6255-421c-8a02-16bced02bd8e",
 					"name": "20170106",
 					"originalRequest": {
 						"method": "POST",
@@ -952,7 +1316,370 @@
 					"body": "{\"tempobj\":[{\"id\":\"b286c218b2dc1fef229c650e74db1e3c\",\"name\":\"test\",\"expiration\":\"2017-01-07T02:13:01.000Z\",\"tempobjref\":{\"mime\":\"application/octet-stream\",\"puturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=37498aa4d6d7f55356391cb66dd168a45d603062&temp_url_expires=1483755181\",\"geturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=fa144790cd2c00a67f5ef3625cbd1bdba6471000&temp_url_expires=1483755181\"}}]}"
 				},
 				{
-					"id": "bbdce2ff-ae87-486b-8310-c23d0283009a",
+					"id": "8950dc5f-5ba1-40fc-849e-7688f86add34",
+					"name": "20160106",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"name": "Authorization",
+								"value": "Basic d3VqZXRpZW5AZ21haWwuY29tOnBhaXJzMi5nbw=="
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "The mime type of this content"
+							},
+							{
+								"key": "x-ibm-client-id",
+								"value": "b381bc10-e0d5-468a-aebc-d91311e9bd23"
+							},
+							{
+								"key": "x-ibm-client-secret",
+								"value": "U7xI1rP5wO7rU3kC5dM7aW2oQ5uT3fJ2jD8aF7mU0wR6eH5fW3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \n\t\"name\": \"analytics square interval pql\",\n\t\"datalayer\": [\"51\"],\n\t\"spatial\": {\n  \t\t\"type\": \"rectangle\",\n  \t\t\"rectangle\": {\n  \t\t\t\"latsw\": \"-4.3\",\n  \t\t\t\"longsw\": \"109.6\",\n  \t\t\t\"latne\": 1.7,\n  \t\t\t\"longne\": 117.9\n  \t\t}\n  \t},\n  \t\"temporal\": [\"10/17/16 20:00\"],\n  \t\"pql\": \"51GT5000AND26015LT0.5\"\n}"
+						},
+						"url": {
+							"raw": "https://dev.api.ibm.com/pairs/development/v1/analytics",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"api",
+								"ibm",
+								"com"
+							],
+							"path": [
+								"pairs",
+								"development",
+								"v1",
+								"analytics"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+							"description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID",
+							"description": "Lets a server whitelist headers that browsers are allowed to access."
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "Keep-Alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": "The type of encoding used on the data."
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sat, 07 Jan 2017 02:30:43 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						},
+						{
+							"name": "X-Backside-Transport",
+							"key": "X-Backside-Transport",
+							"value": "OK OK",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-Global-Transaction-ID",
+							"key": "X-Global-Transaction-ID",
+							"value": "71015205",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-Ibm-Id",
+							"key": "X-Ibm-Id",
+							"value": "wujetien@gmail.com",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "X-RateLimit-Limit",
+							"key": "X-RateLimit-Limit",
+							"value": "name=per-minute,100;",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-RateLimit-Remaining",
+							"key": "X-RateLimit-Remaining",
+							"value": "name=per-minute,98;",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": "899",
+					"body": "{\n  \"id\": \"c91b17d4520e0bed92362b42e4172549\",\n  \"name\": \"analytics square interval pql\"\n}"
+				}
+			]
+		},
+		{
+			"name": "/corpuses",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n      \"name\": \"new result test for exploration\",\n      \"spatial\": {\n        \"type\": \"point\",\n        \"point\": [\n          {\n            \"lat\": \"51.506\",\n            \"long\": \"-0.114\"\n          }\n        ]\n      },\n      \"datalayer\": [\n        {\n          \"id\": \"16100\",\n          \"temporal\": [\n            [\n              \"2016-02-01\"\n            ]\n          ]\n        }\n      ]\n    }"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/corpuses",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"corpuses"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "13bb48dd-cb14-4a74-ae8d-1c780c13e6b3",
+					"name": "20170106",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"name": "Authorization",
+								"value": "Basic d3VqZXRpZW5AZ21haWwuY29tOnBhaXJzMi5nbw=="
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "The mime type of this content"
+							},
+							{
+								"key": "x-ibm-client-id",
+								"value": "b381bc10-e0d5-468a-aebc-d91311e9bd23"
+							},
+							{
+								"key": "x-ibm-client-secret",
+								"value": "U7xI1rP5wO7rU3kC5dM7aW2oQ5uT3fJ2jD8aF7mU0wR6eH5fW3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \n\t\"name\": \"test\",\n  \"lifespan\": \"900\"\n\n}"
+						},
+						"url": {
+							"raw": "https://dev.api.ibm.com/pairs/development/v1/tempobjs",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"api",
+								"ibm",
+								"com"
+							],
+							"path": [
+								"pairs",
+								"development",
+								"v1",
+								"tempobjs"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "Keep-Alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sat, 07 Jan 2017 01:58:01 GMT",
+							"description": ""
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": ""
+						},
+						{
+							"name": "X-Backside-Transport",
+							"key": "X-Backside-Transport",
+							"value": "OK OK",
+							"description": ""
+						},
+						{
+							"name": "X-Global-Transaction-ID",
+							"key": "X-Global-Transaction-ID",
+							"value": "52083885",
+							"description": ""
+						},
+						{
+							"name": "X-Ibm-Id",
+							"key": "X-Ibm-Id",
+							"value": "wujetien@gmail.com",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Limit",
+							"key": "X-RateLimit-Limit",
+							"value": "name=per-minute,100;",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Remaining",
+							"key": "X-RateLimit-Remaining",
+							"value": "name=per-minute,99;",
+							"description": ""
+						}
+					],
+					"cookie": [],
+					"responseTime": "1517",
+					"body": "{\"tempobj\":[{\"id\":\"b286c218b2dc1fef229c650e74db1e3c\",\"name\":\"test\",\"expiration\":\"2017-01-07T02:13:01.000Z\",\"tempobjref\":{\"mime\":\"application/octet-stream\",\"puturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=37498aa4d6d7f55356391cb66dd168a45d603062&temp_url_expires=1483755181\",\"geturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=fa144790cd2c00a67f5ef3625cbd1bdba6471000&temp_url_expires=1483755181\"}}]}"
+				},
+				{
+					"id": "2ef4a654-87de-4658-b204-e76e59ef4d02",
 					"name": "20160106",
 					"originalRequest": {
 						"method": "POST",
@@ -1170,7 +1897,7 @@
 			},
 			"response": [
 				{
-					"id": "31c7aaef-ba08-480f-9ea5-60e74260fb3e",
+					"id": "8212bf1f-7114-4641-8ef1-f60ac2c33f64",
 					"name": "20170106",
 					"originalRequest": {
 						"method": "POST",
@@ -1315,7 +2042,7 @@
 					"body": "{\"tempobj\":[{\"id\":\"b286c218b2dc1fef229c650e74db1e3c\",\"name\":\"test\",\"expiration\":\"2017-01-07T02:13:01.000Z\",\"tempobjref\":{\"mime\":\"application/octet-stream\",\"puturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=37498aa4d6d7f55356391cb66dd168a45d603062&temp_url_expires=1483755181\",\"geturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=fa144790cd2c00a67f5ef3625cbd1bdba6471000&temp_url_expires=1483755181\"}}]}"
 				},
 				{
-					"id": "ce8eedd2-523c-4d45-a820-2ad6e95ad14c",
+					"id": "46b2bb57-c427-4b20-a944-83ab7c9d73d9",
 					"name": "20160106",
 					"originalRequest": {
 						"method": "POST",
@@ -1533,7 +2260,663 @@
 			},
 			"response": [
 				{
-					"id": "783f9fad-2a11-49f1-80e6-b7d5e7fd8ffe",
+					"id": "b1d464cd-a645-488a-9a6d-4aef0c20dc36",
+					"name": "20161216",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"name": "Authorization",
+								"value": "Basic bXlwYWlyc3Rlc3QxQG1haWxpbmF0b3IuY29tOnphcTEyd3N4Li4="
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "The mime type of this content"
+							},
+							{
+								"key": "x-ibm-client-id",
+								"value": "b381bc10-e0d5-468a-aebc-d91311e9bd23"
+							},
+							{
+								"key": "x-ibm-client-secret",
+								"value": "U7xI1rP5wO7rU3kC5dM7aW2oQ5uT3fJ2jD8aF7mU0wR6eH5fW3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://dev.api.ibm.com/pairs/development/datalayers/111",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"api",
+								"ibm",
+								"com"
+							],
+							"path": [
+								"pairs",
+								"development",
+								"datalayers",
+								"111"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "Keep-Alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sat, 17 Dec 2016 04:03:58 GMT",
+							"description": ""
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": ""
+						},
+						{
+							"name": "X-Backside-Transport",
+							"key": "X-Backside-Transport",
+							"value": "OK OK",
+							"description": ""
+						},
+						{
+							"name": "X-Global-Transaction-ID",
+							"key": "X-Global-Transaction-ID",
+							"value": "89209497",
+							"description": ""
+						},
+						{
+							"name": "X-Ibm-Pairs-Api-Userid",
+							"key": "X-Ibm-Pairs-Api-Userid",
+							"value": "api-integration",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Limit",
+							"key": "X-RateLimit-Limit",
+							"value": "name=per-minute,100;",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Remaining",
+							"key": "X-RateLimit-Remaining",
+							"value": "name=per-minute,99;",
+							"description": ""
+						}
+					],
+					"cookie": [],
+					"responseTime": "1740",
+					"body": "{ \"datalayer\": {\"id\":111,\"name\":\"Crop\",\"dataset\":{\"id\":11,\"key\":\"cropscape-prs\",\"name\":\"Historical crop planting map (USA)\",\"category\":{\"id\":3,\"name\":\"Survey\"},\"crs\":null,\"ftpServer\":null,\"ftpUser\":null,\"tempCoverStart\":1136091600000,\"tempCoverEnd\":1451538000000,\"areaCover\":\"ContinentUSA\"},\"parent\":null,\"type\":\"sh\",\"dataregions\":[],\"colorTable\":{\"id\":2,\"name\":\"CROP\",\"colors\":\"ffd300,ff2626,00a8e5,ff9e0c,267000,ffff00,000000,000000,000000,70a500,00af4c,dda50c,dda50c,7fd3ff,000000,000000,000000,000000,000000,000000,e2007c,896354,d8b56b,a57000,d69ebc,707000,ad007c,a05989,700049,d69ebc,d1ff00,7f99ff,d6d600,d1ff00,00af4c,ffa5e2,a5f28c,00af4c,d69ebc,000000,a800e5,a50000,702600,00af4c,b27fff,702600,ff6666,ff6666,ffcc66,ff6666,00af4c,00ddaf,54ff00,f2a377,ff6666,00af4c,7fd3ff,e8bfff,afffdd,00af4c,bfbf77,000000,93cc93,c6d69e,ccbfa3,ff00ff,ff8eaa,ba004f,704489,007777,b29b70,ffff7f,000000,b5705b,00a582,ead6af,b29b70,000000,000000,000000,f2f2f2,9b9b9b,4c70a3,000000,000000,000000,7fb2b2,e8ffbf,000000,000000,000000,00ffff,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,4c70a3,d3e2f9,000000,000000,000000,000000,000000,000000,000000,000000,9b9b9b,9b9b9b,9b9b9b,9b9b9b,000000,000000,000000,000000,000000,000000,ccbfa3,000000,000000,000000,000000,000000,000000,000000,000000,000000,93cc93,93cc93,93cc93,000000,000000,000000,000000,000000,000000,000000,000000,c6d69e,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,e8ffbf,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,7fb2b2,000000,000000,000000,000000,7fb2b2,000000,000000,000000,000000,000000,000000,000000,000000,00ff8c,d69ebc,ff6666,ff6666,ff6666,ff6666,ff8eaa,334933,e57026,ff6666,ff6666,000000,ff6666,b29b70,ff8eaa,ff6666,ff8eaa,ff6666,ff6666,ff8eaa,00af4c,ffd300,ffd300,ff6666,000000,ff6666,896354,ff6666,ff2626,e2007c,ff9e0c,ff9e0c,a57000,ffd300,a57000,267000,267000,ffd300,000099,ff6666,ff6666,ff6666,ff6666,ff6666,ff6666,ff6666,ff6666,ffd300,267000,a57000,267000,0018ef\"},\"crs\":null,\"shortKey\":null,\"interval\":31536000,\"unitsbl\":null,\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"in\"} }"
+				}
+			]
+		},
+		{
+			"name": "/datalayers/{id}",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/datalayers/25001",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"datalayers",
+						"25001"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "c7982f42-6fcf-48b4-ba69-62b69abdfa9e",
+					"name": "20161216",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"name": "Authorization",
+								"value": "Basic bXlwYWlyc3Rlc3QxQG1haWxpbmF0b3IuY29tOnphcTEyd3N4Li4="
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "The mime type of this content"
+							},
+							{
+								"key": "x-ibm-client-id",
+								"value": "b381bc10-e0d5-468a-aebc-d91311e9bd23"
+							},
+							{
+								"key": "x-ibm-client-secret",
+								"value": "U7xI1rP5wO7rU3kC5dM7aW2oQ5uT3fJ2jD8aF7mU0wR6eH5fW3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://dev.api.ibm.com/pairs/development/datalayers/111",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"api",
+								"ibm",
+								"com"
+							],
+							"path": [
+								"pairs",
+								"development",
+								"datalayers",
+								"111"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "Keep-Alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sat, 17 Dec 2016 04:03:58 GMT",
+							"description": ""
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": ""
+						},
+						{
+							"name": "X-Backside-Transport",
+							"key": "X-Backside-Transport",
+							"value": "OK OK",
+							"description": ""
+						},
+						{
+							"name": "X-Global-Transaction-ID",
+							"key": "X-Global-Transaction-ID",
+							"value": "89209497",
+							"description": ""
+						},
+						{
+							"name": "X-Ibm-Pairs-Api-Userid",
+							"key": "X-Ibm-Pairs-Api-Userid",
+							"value": "api-integration",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Limit",
+							"key": "X-RateLimit-Limit",
+							"value": "name=per-minute,100;",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Remaining",
+							"key": "X-RateLimit-Remaining",
+							"value": "name=per-minute,99;",
+							"description": ""
+						}
+					],
+					"cookie": [],
+					"responseTime": "1740",
+					"body": "{ \"datalayer\": {\"id\":111,\"name\":\"Crop\",\"dataset\":{\"id\":11,\"key\":\"cropscape-prs\",\"name\":\"Historical crop planting map (USA)\",\"category\":{\"id\":3,\"name\":\"Survey\"},\"crs\":null,\"ftpServer\":null,\"ftpUser\":null,\"tempCoverStart\":1136091600000,\"tempCoverEnd\":1451538000000,\"areaCover\":\"ContinentUSA\"},\"parent\":null,\"type\":\"sh\",\"dataregions\":[],\"colorTable\":{\"id\":2,\"name\":\"CROP\",\"colors\":\"ffd300,ff2626,00a8e5,ff9e0c,267000,ffff00,000000,000000,000000,70a500,00af4c,dda50c,dda50c,7fd3ff,000000,000000,000000,000000,000000,000000,e2007c,896354,d8b56b,a57000,d69ebc,707000,ad007c,a05989,700049,d69ebc,d1ff00,7f99ff,d6d600,d1ff00,00af4c,ffa5e2,a5f28c,00af4c,d69ebc,000000,a800e5,a50000,702600,00af4c,b27fff,702600,ff6666,ff6666,ffcc66,ff6666,00af4c,00ddaf,54ff00,f2a377,ff6666,00af4c,7fd3ff,e8bfff,afffdd,00af4c,bfbf77,000000,93cc93,c6d69e,ccbfa3,ff00ff,ff8eaa,ba004f,704489,007777,b29b70,ffff7f,000000,b5705b,00a582,ead6af,b29b70,000000,000000,000000,f2f2f2,9b9b9b,4c70a3,000000,000000,000000,7fb2b2,e8ffbf,000000,000000,000000,00ffff,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,4c70a3,d3e2f9,000000,000000,000000,000000,000000,000000,000000,000000,9b9b9b,9b9b9b,9b9b9b,9b9b9b,000000,000000,000000,000000,000000,000000,ccbfa3,000000,000000,000000,000000,000000,000000,000000,000000,000000,93cc93,93cc93,93cc93,000000,000000,000000,000000,000000,000000,000000,000000,c6d69e,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,e8ffbf,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,7fb2b2,000000,000000,000000,000000,7fb2b2,000000,000000,000000,000000,000000,000000,000000,000000,00ff8c,d69ebc,ff6666,ff6666,ff6666,ff6666,ff8eaa,334933,e57026,ff6666,ff6666,000000,ff6666,b29b70,ff8eaa,ff6666,ff8eaa,ff6666,ff6666,ff8eaa,00af4c,ffd300,ffd300,ff6666,000000,ff6666,896354,ff6666,ff2626,e2007c,ff9e0c,ff9e0c,a57000,ffd300,a57000,267000,267000,ffd300,000099,ff6666,ff6666,ff6666,ff6666,ff6666,ff6666,ff6666,ff6666,ffd300,267000,a57000,267000,0018ef\"},\"crs\":null,\"shortKey\":null,\"interval\":31536000,\"unitsbl\":null,\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"in\"} }"
+				}
+			]
+		},
+		{
+			"name": "/polygons",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/polygons",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"polygons"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "1ca76664-9e61-4764-9f87-517682259096",
+					"name": "20161216",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"name": "Authorization",
+								"value": "Basic bXlwYWlyc3Rlc3QxQG1haWxpbmF0b3IuY29tOnphcTEyd3N4Li4="
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "The mime type of this content"
+							},
+							{
+								"key": "x-ibm-client-id",
+								"value": "b381bc10-e0d5-468a-aebc-d91311e9bd23"
+							},
+							{
+								"key": "x-ibm-client-secret",
+								"value": "U7xI1rP5wO7rU3kC5dM7aW2oQ5uT3fJ2jD8aF7mU0wR6eH5fW3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://dev.api.ibm.com/pairs/development/datalayers/111",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"api",
+								"ibm",
+								"com"
+							],
+							"path": [
+								"pairs",
+								"development",
+								"datalayers",
+								"111"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "Keep-Alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sat, 17 Dec 2016 04:03:58 GMT",
+							"description": ""
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": ""
+						},
+						{
+							"name": "X-Backside-Transport",
+							"key": "X-Backside-Transport",
+							"value": "OK OK",
+							"description": ""
+						},
+						{
+							"name": "X-Global-Transaction-ID",
+							"key": "X-Global-Transaction-ID",
+							"value": "89209497",
+							"description": ""
+						},
+						{
+							"name": "X-Ibm-Pairs-Api-Userid",
+							"key": "X-Ibm-Pairs-Api-Userid",
+							"value": "api-integration",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Limit",
+							"key": "X-RateLimit-Limit",
+							"value": "name=per-minute,100;",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Remaining",
+							"key": "X-RateLimit-Remaining",
+							"value": "name=per-minute,99;",
+							"description": ""
+						}
+					],
+					"cookie": [],
+					"responseTime": "1740",
+					"body": "{ \"datalayer\": {\"id\":111,\"name\":\"Crop\",\"dataset\":{\"id\":11,\"key\":\"cropscape-prs\",\"name\":\"Historical crop planting map (USA)\",\"category\":{\"id\":3,\"name\":\"Survey\"},\"crs\":null,\"ftpServer\":null,\"ftpUser\":null,\"tempCoverStart\":1136091600000,\"tempCoverEnd\":1451538000000,\"areaCover\":\"ContinentUSA\"},\"parent\":null,\"type\":\"sh\",\"dataregions\":[],\"colorTable\":{\"id\":2,\"name\":\"CROP\",\"colors\":\"ffd300,ff2626,00a8e5,ff9e0c,267000,ffff00,000000,000000,000000,70a500,00af4c,dda50c,dda50c,7fd3ff,000000,000000,000000,000000,000000,000000,e2007c,896354,d8b56b,a57000,d69ebc,707000,ad007c,a05989,700049,d69ebc,d1ff00,7f99ff,d6d600,d1ff00,00af4c,ffa5e2,a5f28c,00af4c,d69ebc,000000,a800e5,a50000,702600,00af4c,b27fff,702600,ff6666,ff6666,ffcc66,ff6666,00af4c,00ddaf,54ff00,f2a377,ff6666,00af4c,7fd3ff,e8bfff,afffdd,00af4c,bfbf77,000000,93cc93,c6d69e,ccbfa3,ff00ff,ff8eaa,ba004f,704489,007777,b29b70,ffff7f,000000,b5705b,00a582,ead6af,b29b70,000000,000000,000000,f2f2f2,9b9b9b,4c70a3,000000,000000,000000,7fb2b2,e8ffbf,000000,000000,000000,00ffff,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,4c70a3,d3e2f9,000000,000000,000000,000000,000000,000000,000000,000000,9b9b9b,9b9b9b,9b9b9b,9b9b9b,000000,000000,000000,000000,000000,000000,ccbfa3,000000,000000,000000,000000,000000,000000,000000,000000,000000,93cc93,93cc93,93cc93,000000,000000,000000,000000,000000,000000,000000,000000,c6d69e,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,e8ffbf,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,000000,7fb2b2,000000,000000,000000,000000,7fb2b2,000000,000000,000000,000000,000000,000000,000000,000000,00ff8c,d69ebc,ff6666,ff6666,ff6666,ff6666,ff8eaa,334933,e57026,ff6666,ff6666,000000,ff6666,b29b70,ff8eaa,ff6666,ff8eaa,ff6666,ff6666,ff8eaa,00af4c,ffd300,ffd300,ff6666,000000,ff6666,896354,ff6666,ff2626,e2007c,ff9e0c,ff9e0c,a57000,ffd300,a57000,267000,267000,ffd300,000099,ff6666,ff6666,ff6666,ff6666,ff6666,ff6666,ff6666,ff6666,ffd300,267000,a57000,267000,0018ef\"},\"crs\":null,\"shortKey\":null,\"interval\":31536000,\"unitsbl\":null,\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"in\"} }"
+				}
+			]
+		},
+		{
+			"name": "/polygons/{id}",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/polygons/32",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"polygons",
+						"32"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "af320a3c-7ff5-469b-bdf4-d920f4c818a4",
 					"name": "20161216",
 					"originalRequest": {
 						"method": "GET",
@@ -1731,7 +3114,151 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{ \"name\": \"point query\",\r\n                \"spatial\": {\r\n                    \"type\": \"point\",\r\n                    \"point\": [\r\n                        {\r\n                            \"lat\": \"41.208912\",\r\n                            \"long\": \"-73.804661\"\r\n                        }\r\n                    ]\r\n                },\r\n                \"datalayer\": [\r\n                    {\r\n                        \"id\": \"25001\",\r\n                        \"temporal\": [\r\n                            [\r\n                                \"2016-02-01\"\r\n                            ]\r\n                        ]\r\n                    }\r\n                ]\r\n}"
+					"raw": "{\r\n\t\"name\": \"point query\",\r\n\t\"spatial\": {\r\n    \t\"type\": \"point\",\r\n    \t\"point\": [\r\n    \t\t{\r\n        \t\t\"lat\": \"41.208912\",\r\n        \t\t\"long\": \"-73.804661\"\r\n        \t}\r\n    \t]\r\n\t},\r\n\t\"datalayer\": [\r\n    \t{\r\n    \t\t\"id\": \"25001\",\r\n        \t\"temporal\": [\r\n        \t\t[\r\n            \t\t\"2016-02-01\"\r\n        \t\t]\r\n        \t]\r\n    \t}\r\n\t]\r\n}"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/queries",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"queries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/queries (polygon)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"name\": \"polygon query\",\r\n\t\"spatial\": {\r\n\t\t\"type\": \"polygon\",\r\n    \t\"polygon\": {\r\n    \t\t\"id\": \"32\"\r\n    \t}\r\n\t},\r\n\t\"datalayer\": [\r\n    \t{\r\n    \t\t\"id\": \"25001\",\r\n        \t \"temporal\": [\r\n            \t[\r\n                    \"2016-02-01\"\r\n            \t]\r\n        \t]\r\n    \t}\r\n\t]\r\n}"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/queries",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"queries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/queries (polygon) x-ips-wms",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"name\": \"polygon query\",\r\n\t\"spatial\": {\r\n\t\t\"type\": \"polygon\",\r\n    \t\"polygon\": {\r\n    \t\t\"id\": \"32\"\r\n    \t}\r\n\t},\r\n\t\"datalayer\": [\r\n    \t{\r\n    \t\t\"id\": \"25001\",\r\n        \t \"temporal\": [\r\n            \t[\r\n                    \"2016-02-01\"\r\n            \t]\r\n        \t]\r\n    \t}\r\n\t],\r\n\t\"mime\": \"x-ips-wms\"\r\n}"
 				},
 				"url": {
 					"raw": "https://api.ibm.com/pairs/run/v1/queries",
@@ -1825,6 +3352,152 @@
 							"value": "false",
 							"equals": true
 						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/jobs/{id}",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"name\": \"point query\",\r\n  \"spatial\":\r\n{ \"type\": \"point\",\r\n      \"point\": [ { \"lat\": \"51.506\", \"long\": \"-0.114\" } ]\r\n},\r\n  \"datalayer\": [\r\n{ \"id\": \"5\",\r\n  \"temporal\": [ [ \"2016-02-01T00:00:00.000Z\" ] ]\r\n}\r\n  ]\r\n}"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/jobs/169f5b308163232400ff9a85ebc46aaa",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"jobs",
+						"169f5b308163232400ff9a85ebc46aaa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/jobs/{id}",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/jobs/169f5b308163232400ff9a85ebc46aaa",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"jobs",
+						"169f5b308163232400ff9a85ebc46aaa"
 					]
 				}
 			},
@@ -1957,7 +3630,7 @@
 					"raw": "{ \"name\": \"point query\",\r\n  \"spatial\":\r\n{ \"type\": \"point\",\r\n      \"point\": [ { \"lat\": \"51.506\", \"long\": \"-0.114\" } ]\r\n},\r\n  \"datalayer\": [\r\n{ \"id\": \"5\",\r\n  \"temporal\": [ [ \"2016-02-01T00:00:00.000Z\" ] ]\r\n}\r\n  ]\r\n}"
 				},
 				"url": {
-					"raw": "https://api.ibm.com/pairs/run/v1/queries",
+					"raw": "https://api.ibm.com/pairs/run/v1/queries/3f4be5791a2f7d206fc46f9d5dc65835",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -1968,7 +3641,8 @@
 						"pairs",
 						"run",
 						"v1",
-						"queries"
+						"queries",
+						"3f4be5791a2f7d206fc46f9d5dc65835"
 					]
 				}
 			},
@@ -2119,7 +3793,7 @@
 			},
 			"response": [
 				{
-					"id": "2336e260-c403-47b0-840e-d7540293b247",
+					"id": "6cc89e49-c61e-4399-a7f5-efeff5b6e4bf",
 					"name": "20161216",
 					"originalRequest": {
 						"method": "GET",
@@ -2264,6 +3938,2045 @@
 					"body": "{ \"dataset\": {\"id\":13,\"key\":\"cimis-raster\",\"name\":\"California weather condition measurements\",\"level\":15,\"layers\":[{\"id\":134,\"name\":\"Daily clearness factor\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":null,\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":133,\"name\":\"Daily clear sky solar radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":136,\"name\":\"Daily maximum temperature\",\"crs\":\"\",\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":137,\"name\":\"Daily mean dew point temperature\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":135,\"name\":\"Daily minimum temperature\",\"crs\":\"\",\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":132,\"name\":\"Daily net long-wave radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":130,\"name\":\"Daily reference evapotranspiration\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"mm day-1\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":131,\"name\":\"Daily solar radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":138,\"name\":\"Daily wind speed\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"m s-1\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"}],\"crs\":null,\"ftpServer\":null,\"ftpUser\":null,\"tempCoverStart\":1262322000000,\"tempCoverEnd\":null,\"areaCover\":\"California\"} }"
 				}
 			]
+		},
+		{
+			"name": "/variables/{name}",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic cm9uZy5jaGFuZ0BsaXZlLmNvbTpwYWlyczIuZ28="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\"name\": \"project\", \"value\": \"demo\"}]"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/variables/_subscriptionId",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"variables",
+						"_subscriptionId"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "e66ddc8a-08ea-444e-9e8c-489a35447344",
+					"name": "20161216",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"name": "Authorization",
+								"value": "Basic bXlwYWlyc3Rlc3QxQG1haWxpbmF0b3IuY29tOnphcTEyd3N4Li4="
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "The mime type of this content"
+							},
+							{
+								"key": "x-ibm-client-id",
+								"value": "b381bc10-e0d5-468a-aebc-d91311e9bd23"
+							},
+							{
+								"key": "x-ibm-client-secret",
+								"value": "U7xI1rP5wO7rU3kC5dM7aW2oQ5uT3fJ2jD8aF7mU0wR6eH5fW3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://dev.api.ibm.com/pairs/development/datasets/13",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"api",
+								"ibm",
+								"com"
+							],
+							"path": [
+								"pairs",
+								"development",
+								"datasets",
+								"13"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "Keep-Alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sat, 17 Dec 2016 04:07:05 GMT",
+							"description": ""
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": ""
+						},
+						{
+							"name": "X-Backside-Transport",
+							"key": "X-Backside-Transport",
+							"value": "OK OK",
+							"description": ""
+						},
+						{
+							"name": "X-Global-Transaction-ID",
+							"key": "X-Global-Transaction-ID",
+							"value": "7564105",
+							"description": ""
+						},
+						{
+							"name": "X-Ibm-Pairs-Api-Userid",
+							"key": "X-Ibm-Pairs-Api-Userid",
+							"value": "api-integration",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Limit",
+							"key": "X-RateLimit-Limit",
+							"value": "name=per-minute,100;",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Remaining",
+							"key": "X-RateLimit-Remaining",
+							"value": "name=per-minute,99;",
+							"description": ""
+						}
+					],
+					"cookie": [],
+					"responseTime": "1541",
+					"body": "{ \"dataset\": {\"id\":13,\"key\":\"cimis-raster\",\"name\":\"California weather condition measurements\",\"level\":15,\"layers\":[{\"id\":134,\"name\":\"Daily clearness factor\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":null,\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":133,\"name\":\"Daily clear sky solar radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":136,\"name\":\"Daily maximum temperature\",\"crs\":\"\",\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":137,\"name\":\"Daily mean dew point temperature\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":135,\"name\":\"Daily minimum temperature\",\"crs\":\"\",\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":132,\"name\":\"Daily net long-wave radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":130,\"name\":\"Daily reference evapotranspiration\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"mm day-1\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":131,\"name\":\"Daily solar radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":138,\"name\":\"Daily wind speed\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"m s-1\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"}],\"crs\":null,\"ftpServer\":null,\"ftpUser\":null,\"tempCoverStart\":1262322000000,\"tempCoverEnd\":null,\"areaCover\":\"California\"} }"
+				}
+			]
+		},
+		{
+			"name": "/variables/{name}",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic cm9uZy5jaGFuZ0BsaXZlLmNvbTpwYWlyczIuZ28="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"value\": \"test\"}"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/variables/project",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"variables",
+						"project"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "7d8e673d-64c1-4486-a7ec-90e6a52ce9d4",
+					"name": "20161216",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"name": "Authorization",
+								"value": "Basic bXlwYWlyc3Rlc3QxQG1haWxpbmF0b3IuY29tOnphcTEyd3N4Li4="
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "The mime type of this content"
+							},
+							{
+								"key": "x-ibm-client-id",
+								"value": "b381bc10-e0d5-468a-aebc-d91311e9bd23"
+							},
+							{
+								"key": "x-ibm-client-secret",
+								"value": "U7xI1rP5wO7rU3kC5dM7aW2oQ5uT3fJ2jD8aF7mU0wR6eH5fW3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://dev.api.ibm.com/pairs/development/datasets/13",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"api",
+								"ibm",
+								"com"
+							],
+							"path": [
+								"pairs",
+								"development",
+								"datasets",
+								"13"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "Keep-Alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sat, 17 Dec 2016 04:07:05 GMT",
+							"description": ""
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": ""
+						},
+						{
+							"name": "X-Backside-Transport",
+							"key": "X-Backside-Transport",
+							"value": "OK OK",
+							"description": ""
+						},
+						{
+							"name": "X-Global-Transaction-ID",
+							"key": "X-Global-Transaction-ID",
+							"value": "7564105",
+							"description": ""
+						},
+						{
+							"name": "X-Ibm-Pairs-Api-Userid",
+							"key": "X-Ibm-Pairs-Api-Userid",
+							"value": "api-integration",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Limit",
+							"key": "X-RateLimit-Limit",
+							"value": "name=per-minute,100;",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Remaining",
+							"key": "X-RateLimit-Remaining",
+							"value": "name=per-minute,99;",
+							"description": ""
+						}
+					],
+					"cookie": [],
+					"responseTime": "1541",
+					"body": "{ \"dataset\": {\"id\":13,\"key\":\"cimis-raster\",\"name\":\"California weather condition measurements\",\"level\":15,\"layers\":[{\"id\":134,\"name\":\"Daily clearness factor\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":null,\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":133,\"name\":\"Daily clear sky solar radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":136,\"name\":\"Daily maximum temperature\",\"crs\":\"\",\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":137,\"name\":\"Daily mean dew point temperature\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":135,\"name\":\"Daily minimum temperature\",\"crs\":\"\",\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":132,\"name\":\"Daily net long-wave radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":130,\"name\":\"Daily reference evapotranspiration\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"mm day-1\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":131,\"name\":\"Daily solar radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":138,\"name\":\"Daily wind speed\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"m s-1\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"}],\"crs\":null,\"ftpServer\":null,\"ftpUser\":null,\"tempCoverStart\":1262322000000,\"tempCoverEnd\":null,\"areaCover\":\"California\"} }"
+				}
+			]
+		},
+		{
+			"name": "/variables/{name}",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic cm9uZy5jaGFuZ0BsaXZlLmNvbTpwYWlyczIuZ28="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\"name\": \"project\", \"value\": \"demo\"}]"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/variables/project",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"variables",
+						"project"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "8f315577-c8fd-40b3-a1c5-ee5b78e3ef65",
+					"name": "20161216",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"name": "Authorization",
+								"value": "Basic bXlwYWlyc3Rlc3QxQG1haWxpbmF0b3IuY29tOnphcTEyd3N4Li4="
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "The mime type of this content"
+							},
+							{
+								"key": "x-ibm-client-id",
+								"value": "b381bc10-e0d5-468a-aebc-d91311e9bd23"
+							},
+							{
+								"key": "x-ibm-client-secret",
+								"value": "U7xI1rP5wO7rU3kC5dM7aW2oQ5uT3fJ2jD8aF7mU0wR6eH5fW3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://dev.api.ibm.com/pairs/development/datasets/13",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"api",
+								"ibm",
+								"com"
+							],
+							"path": [
+								"pairs",
+								"development",
+								"datasets",
+								"13"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "Keep-Alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sat, 17 Dec 2016 04:07:05 GMT",
+							"description": ""
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": ""
+						},
+						{
+							"name": "X-Backside-Transport",
+							"key": "X-Backside-Transport",
+							"value": "OK OK",
+							"description": ""
+						},
+						{
+							"name": "X-Global-Transaction-ID",
+							"key": "X-Global-Transaction-ID",
+							"value": "7564105",
+							"description": ""
+						},
+						{
+							"name": "X-Ibm-Pairs-Api-Userid",
+							"key": "X-Ibm-Pairs-Api-Userid",
+							"value": "api-integration",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Limit",
+							"key": "X-RateLimit-Limit",
+							"value": "name=per-minute,100;",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Remaining",
+							"key": "X-RateLimit-Remaining",
+							"value": "name=per-minute,99;",
+							"description": ""
+						}
+					],
+					"cookie": [],
+					"responseTime": "1541",
+					"body": "{ \"dataset\": {\"id\":13,\"key\":\"cimis-raster\",\"name\":\"California weather condition measurements\",\"level\":15,\"layers\":[{\"id\":134,\"name\":\"Daily clearness factor\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":null,\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":133,\"name\":\"Daily clear sky solar radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":136,\"name\":\"Daily maximum temperature\",\"crs\":\"\",\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":137,\"name\":\"Daily mean dew point temperature\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":135,\"name\":\"Daily minimum temperature\",\"crs\":\"\",\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":132,\"name\":\"Daily net long-wave radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":130,\"name\":\"Daily reference evapotranspiration\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"mm day-1\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":131,\"name\":\"Daily solar radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":138,\"name\":\"Daily wind speed\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"m s-1\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"}],\"crs\":null,\"ftpServer\":null,\"ftpUser\":null,\"tempCoverStart\":1262322000000,\"tempCoverEnd\":null,\"areaCover\":\"California\"} }"
+				}
+			]
+		},
+		{
+			"name": "/tempobjs",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic cm9uZy5jaGFuZ0BsaXZlLmNvbTpwYWlyczIuZ28="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"temporary object\", \"lifespan\": \"259200\"}"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/tempobjs",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"tempobjs"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "db946159-74b2-43e8-b8e7-5356c42772c9",
+					"name": "20161216",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"name": "Authorization",
+								"value": "Basic bXlwYWlyc3Rlc3QxQG1haWxpbmF0b3IuY29tOnphcTEyd3N4Li4="
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "The mime type of this content"
+							},
+							{
+								"key": "x-ibm-client-id",
+								"value": "b381bc10-e0d5-468a-aebc-d91311e9bd23"
+							},
+							{
+								"key": "x-ibm-client-secret",
+								"value": "U7xI1rP5wO7rU3kC5dM7aW2oQ5uT3fJ2jD8aF7mU0wR6eH5fW3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://dev.api.ibm.com/pairs/development/datasets/13",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"api",
+								"ibm",
+								"com"
+							],
+							"path": [
+								"pairs",
+								"development",
+								"datasets",
+								"13"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "Keep-Alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sat, 17 Dec 2016 04:07:05 GMT",
+							"description": ""
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": ""
+						},
+						{
+							"name": "X-Backside-Transport",
+							"key": "X-Backside-Transport",
+							"value": "OK OK",
+							"description": ""
+						},
+						{
+							"name": "X-Global-Transaction-ID",
+							"key": "X-Global-Transaction-ID",
+							"value": "7564105",
+							"description": ""
+						},
+						{
+							"name": "X-Ibm-Pairs-Api-Userid",
+							"key": "X-Ibm-Pairs-Api-Userid",
+							"value": "api-integration",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Limit",
+							"key": "X-RateLimit-Limit",
+							"value": "name=per-minute,100;",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Remaining",
+							"key": "X-RateLimit-Remaining",
+							"value": "name=per-minute,99;",
+							"description": ""
+						}
+					],
+					"cookie": [],
+					"responseTime": "1541",
+					"body": "{ \"dataset\": {\"id\":13,\"key\":\"cimis-raster\",\"name\":\"California weather condition measurements\",\"level\":15,\"layers\":[{\"id\":134,\"name\":\"Daily clearness factor\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":null,\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":133,\"name\":\"Daily clear sky solar radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":136,\"name\":\"Daily maximum temperature\",\"crs\":\"\",\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":137,\"name\":\"Daily mean dew point temperature\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":135,\"name\":\"Daily minimum temperature\",\"crs\":\"\",\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":132,\"name\":\"Daily net long-wave radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":130,\"name\":\"Daily reference evapotranspiration\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"mm day-1\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":131,\"name\":\"Daily solar radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":138,\"name\":\"Daily wind speed\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"m s-1\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"}],\"crs\":null,\"ftpServer\":null,\"ftpUser\":null,\"tempCoverStart\":1262322000000,\"tempCoverEnd\":null,\"areaCover\":\"California\"} }"
+				}
+			]
+		},
+		{
+			"name": "/tempobjs/{id}",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic cm9uZy5jaGFuZ0BsaXZlLmNvbTpwYWlyczIuZ28="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\"name\": \"project\", \"value\": \"demo\"}]"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/tempobjs/59f5757f077d69d6b34b77f21d186070",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"tempobjs",
+						"59f5757f077d69d6b34b77f21d186070"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "b773212e-0c8c-4400-8877-56db77ae949a",
+					"name": "20161216",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"name": "Authorization",
+								"value": "Basic bXlwYWlyc3Rlc3QxQG1haWxpbmF0b3IuY29tOnphcTEyd3N4Li4="
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "The mime type of this content"
+							},
+							{
+								"key": "x-ibm-client-id",
+								"value": "b381bc10-e0d5-468a-aebc-d91311e9bd23"
+							},
+							{
+								"key": "x-ibm-client-secret",
+								"value": "U7xI1rP5wO7rU3kC5dM7aW2oQ5uT3fJ2jD8aF7mU0wR6eH5fW3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://dev.api.ibm.com/pairs/development/datasets/13",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"api",
+								"ibm",
+								"com"
+							],
+							"path": [
+								"pairs",
+								"development",
+								"datasets",
+								"13"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "Keep-Alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sat, 17 Dec 2016 04:07:05 GMT",
+							"description": ""
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": ""
+						},
+						{
+							"name": "X-Backside-Transport",
+							"key": "X-Backside-Transport",
+							"value": "OK OK",
+							"description": ""
+						},
+						{
+							"name": "X-Global-Transaction-ID",
+							"key": "X-Global-Transaction-ID",
+							"value": "7564105",
+							"description": ""
+						},
+						{
+							"name": "X-Ibm-Pairs-Api-Userid",
+							"key": "X-Ibm-Pairs-Api-Userid",
+							"value": "api-integration",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Limit",
+							"key": "X-RateLimit-Limit",
+							"value": "name=per-minute,100;",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Remaining",
+							"key": "X-RateLimit-Remaining",
+							"value": "name=per-minute,99;",
+							"description": ""
+						}
+					],
+					"cookie": [],
+					"responseTime": "1541",
+					"body": "{ \"dataset\": {\"id\":13,\"key\":\"cimis-raster\",\"name\":\"California weather condition measurements\",\"level\":15,\"layers\":[{\"id\":134,\"name\":\"Daily clearness factor\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":null,\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":133,\"name\":\"Daily clear sky solar radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":136,\"name\":\"Daily maximum temperature\",\"crs\":\"\",\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":137,\"name\":\"Daily mean dew point temperature\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":135,\"name\":\"Daily minimum temperature\",\"crs\":\"\",\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":132,\"name\":\"Daily net long-wave radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":130,\"name\":\"Daily reference evapotranspiration\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"mm day-1\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":131,\"name\":\"Daily solar radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":138,\"name\":\"Daily wind speed\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"m s-1\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"}],\"crs\":null,\"ftpServer\":null,\"ftpUser\":null,\"tempCoverStart\":1262322000000,\"tempCoverEnd\":null,\"areaCover\":\"California\"} }"
+				}
+			]
+		},
+		{
+			"name": "/tempobjs/{id}",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic cm9uZy5jaGFuZ0BsaXZlLmNvbTpwYWlyczIuZ28="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/tempobjs/59f5757f077d69d6b34b77f21d186070",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"tempobjs",
+						"59f5757f077d69d6b34b77f21d186070"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "3bf1e6bd-b6d8-4bde-8fa7-19b32148d933",
+					"name": "20161216",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"name": "Authorization",
+								"value": "Basic bXlwYWlyc3Rlc3QxQG1haWxpbmF0b3IuY29tOnphcTEyd3N4Li4="
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "The mime type of this content"
+							},
+							{
+								"key": "x-ibm-client-id",
+								"value": "b381bc10-e0d5-468a-aebc-d91311e9bd23"
+							},
+							{
+								"key": "x-ibm-client-secret",
+								"value": "U7xI1rP5wO7rU3kC5dM7aW2oQ5uT3fJ2jD8aF7mU0wR6eH5fW3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://dev.api.ibm.com/pairs/development/datasets/13",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"api",
+								"ibm",
+								"com"
+							],
+							"path": [
+								"pairs",
+								"development",
+								"datasets",
+								"13"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "Keep-Alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sat, 17 Dec 2016 04:07:05 GMT",
+							"description": ""
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": ""
+						},
+						{
+							"name": "X-Backside-Transport",
+							"key": "X-Backside-Transport",
+							"value": "OK OK",
+							"description": ""
+						},
+						{
+							"name": "X-Global-Transaction-ID",
+							"key": "X-Global-Transaction-ID",
+							"value": "7564105",
+							"description": ""
+						},
+						{
+							"name": "X-Ibm-Pairs-Api-Userid",
+							"key": "X-Ibm-Pairs-Api-Userid",
+							"value": "api-integration",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Limit",
+							"key": "X-RateLimit-Limit",
+							"value": "name=per-minute,100;",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Remaining",
+							"key": "X-RateLimit-Remaining",
+							"value": "name=per-minute,99;",
+							"description": ""
+						}
+					],
+					"cookie": [],
+					"responseTime": "1541",
+					"body": "{ \"dataset\": {\"id\":13,\"key\":\"cimis-raster\",\"name\":\"California weather condition measurements\",\"level\":15,\"layers\":[{\"id\":134,\"name\":\"Daily clearness factor\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":null,\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":133,\"name\":\"Daily clear sky solar radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":136,\"name\":\"Daily maximum temperature\",\"crs\":\"\",\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":137,\"name\":\"Daily mean dew point temperature\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":135,\"name\":\"Daily minimum temperature\",\"crs\":\"\",\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":132,\"name\":\"Daily net long-wave radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":130,\"name\":\"Daily reference evapotranspiration\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"mm day-1\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":131,\"name\":\"Daily solar radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":138,\"name\":\"Daily wind speed\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"m s-1\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"}],\"crs\":null,\"ftpServer\":null,\"ftpUser\":null,\"tempCoverStart\":1262322000000,\"tempCoverEnd\":null,\"areaCover\":\"California\"} }"
+				}
+			]
+		},
+		{
+			"name": "/explorations (point)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"name\": \"point exploration theme\",\r\n\t\"spatial\": {\r\n    \t\"type\": \"point\",\r\n    \t\"point\": [\r\n    \t\t{\r\n        \t\t\"lat\": \"41.208912\",\r\n        \t\t\"long\": \"-73.804661\"\r\n        \t}\r\n    \t]\r\n\t},\r\n\t\"datalayer\": [\r\n    \t{\r\n    \t\t\"id\": \"25001\",\r\n        \t\"temporal\": [\r\n        \t\t[\r\n            \t\t\"2016-02-01\"\r\n        \t\t]\r\n        \t]\r\n    \t}\r\n\t]\r\n}"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/explorations",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"explorations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/explorations",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"name\": \"point exploration theme\",\r\n\t\"spatial\": {\r\n    \t\"type\": \"point\",\r\n    \t\"point\": [\r\n    \t\t{\r\n        \t\t\"lat\": \"41.208912\",\r\n        \t\t\"long\": \"-73.804661\"\r\n        \t}\r\n    \t]\r\n\t},\r\n\t\"datalayer\": [\r\n    \t{\r\n    \t\t\"id\": \"25001\",\r\n        \t\"temporal\": [\r\n        \t\t[\r\n            \t\t\"2016-02-01\"\r\n        \t\t]\r\n        \t]\r\n    \t}\r\n\t]\r\n}"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/explorations",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"explorations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/explorations/{id}",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"name\": \"point exploration theme\",\r\n\t\"spatial\": {\r\n    \t\"type\": \"point\",\r\n    \t\"point\": [\r\n    \t\t{\r\n        \t\t\"lat\": \"41.208912\",\r\n        \t\t\"long\": \"-73.804661\"\r\n        \t}\r\n    \t]\r\n\t},\r\n\t\"datalayer\": [\r\n    \t{\r\n    \t\t\"id\": \"25001\",\r\n        \t\"temporal\": [\r\n        \t\t[\r\n            \t\t\"2016-02-01\"\r\n        \t\t]\r\n        \t]\r\n    \t}\r\n\t]\r\n}"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/explorations/66e317323365f7528c12e0249bb95ac1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"explorations",
+						"66e317323365f7528c12e0249bb95ac1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/results (point)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n  \"name\": \"exploration result (point)\",\n  \"parent\": \"66e317323365f7528c12e0249bb95ac1\"\n}"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/results",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"results"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/jobs/{id}",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"name\": \"point query\",\r\n  \"spatial\":\r\n{ \"type\": \"point\",\r\n      \"point\": [ { \"lat\": \"51.506\", \"long\": \"-0.114\" } ]\r\n},\r\n  \"datalayer\": [\r\n{ \"id\": \"5\",\r\n  \"temporal\": [ [ \"2016-02-01T00:00:00.000Z\" ] ]\r\n}\r\n  ]\r\n}"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/jobs/2633e591fc0efaf2022c6a6c544f8cd9",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"jobs",
+						"2633e591fc0efaf2022c6a6c544f8cd9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/results",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n  \"name\": \"exploration result (point)\",\n  \"parent\": \"cc2f3e5a83bae2dfa097d695ab31d152\"\n}"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/results",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"results"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/results/{id}",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n  \"name\": \"exploration result (point)\",\n  \"parent\": \"cc2f3e5a83bae2dfa097d695ab31d152\"\n}"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/results/65d2f3ccf796b91112ed165f0aa89a21",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"results",
+						"65d2f3ccf796b91112ed165f0aa89a21"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/explorations/{id}",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"name\": \"point exploration project\"\r\n}"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/explorations/66e317323365f7528c12e0249bb95ac1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"explorations",
+						"66e317323365f7528c12e0249bb95ac1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/explorations/{id}",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/explorations/cc2f3e5a83bae2dfa097d695ab31d152",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"explorations",
+						"cc2f3e5a83bae2dfa097d695ab31d152"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/results/{id}",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/results/1946057fe396620cd0d886a6324dc872",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"results",
+						"1946057fe396620cd0d886a6324dc872"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
