@@ -8,7 +8,7 @@ Sample client artifacts for the IBM PAIRS Services (IPS)
 * IBM developerWorks API Explorer entry of the IPS: https://developer.ibm.com/api/view/pairs-prod:pairs-api
 
 * Signup URL for the IBM PAIRS Services
-https://www.ibm.com/account/us-en/signup/register.html?a=PAIRS&ctx=C001&cc=us&lc=en&trial=yes&quantity=1&catalogName=Master&partNumber=PAIRS_FREE&siteID=ECOM
+https://www.ibm.com/account/reg/us-en/signup?formid=urx-30116 
 
 * Public GitHub Repository of IPS client samples: https://github.com/webchang/ibm-ips-samples
 
