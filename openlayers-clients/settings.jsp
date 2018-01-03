@@ -105,15 +105,16 @@ function populateSettings(datasets) {
 			html += getHtmlRow("requesterId", data.requesterId.value, data.requesterId.info);
 			html += getHtmlRow("clientId", data.clientId.value, data.clientId.info);
 			html += getHtmlRow("subscriptionId", data.subscriptionId.value, data.subscriptionId.info);
-			html += getHtmlRow("ownerId", data.ownerId.value, data.ownerId.info);
-if(data.corpusIds != undefined)
-			html += getHtmlRows("corpusIds", data.corpusIds.value, data.corpusIds.info);
-if(data.corpusPolicy != undefined)
-			html += getHtmlComplexRows("corpusPolicy", data.corpusPolicy.value, data.corpusPolicy.info);
-if(data.customerPolicy != undefined)
-			html += getHtmlComplexRows("customerPolicy", data.customerPolicy.value, data.customerPolicy.info);
-if(data.datasetPolicy != undefined)
-			html += getHtmlComplexRows("datasetPolicy", data.datasetPolicy.value, data.datasetPolicy.info);
+			if(data.adminIds != undefined)
+				html += getHtmlRows("adminIds", data.adminIds.value, data.adminIds.info);
+			if(data.corpusIds != undefined)
+				html += getHtmlRows("corpusIds", data.corpusIds.value, data.corpusIds.info);
+			if(data.corpusPolicy != undefined)
+				html += getHtmlComplexRows("corpusPolicy", data.corpusPolicy.value, data.corpusPolicy.info);
+			if(data.customerPolicy != undefined)
+				html += getHtmlComplexRows("customerPolicy", data.customerPolicy.value, data.customerPolicy.info);
+			if(data.datasetPolicy != undefined)
+				html += getHtmlComplexRows("datasetPolicy", data.datasetPolicy.value, data.datasetPolicy.info);
 			
 			html += '</table>';
 			$('#settingsDiv').html(html);
