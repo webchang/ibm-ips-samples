@@ -5,127 +5,141 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Jobs</title>
-<jsp:include page="import.jsp" /> 
+<jsp:include page="base.jsp" />
+<jsp:include page="import.jsp" />
 <script src="http://dev.openlayers.org/OpenLayers.js"></script>
 <style>
+body {
+font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #888;
+}
 
+html, body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
 
- html, body {
-                margin: 0;
-                width: 100%;
-                height: 100%;
-            }
 #mapDiv {
-position: relative;
-    width: 100%;
-    height: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #FFF;
-    padding: 0px 0px 0px 0px;
-    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #888;
-    border:0px solid #D8DC63;
-    border-radius: 0px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    overflow:visible;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+	padding: 0px 0px 0px 0px;
+	font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #888;
+	border: 0px solid #D8DC63;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	overflow: visible;
+}
 
-            }
 #jobsDiv, #ongoingJobsDiv {
-    position: absolute;
-    top:200px;
-    left:0px;
-    width: 220px;
-    height: 210px;
-    margin-right: 0;
-    margin-left: 0;
-    background-color: #FFF;
-    opacity: 0.85;
-    padding: 5px 5px 5px 5px;
-    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #888;
-    border:1px solid #e17009;
-    border-radius: 0px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    z-index:9999;
-    overflow:scroll;
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	width: 220px;
+	height: 210px;
+	margin-right: 0;
+	margin-left: 0;
+	background-color: #FFF;
+	opacity: 0.85;
+	padding: 5px 5px 5px 5px;
+	font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #888;
+	border: 1px solid #e17009;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	z-index: 9999;
+	overflow: scroll;
+}
 
-            }
-            
 #jobsDiv {
-   top:420px;
+	top: 420px;
 }
 
 #popupJobContainer {
- position: absolute;
-    top:200px;
-    left:270px;
-    width: 320px;
-    height: 375px;
-    margin-right: 0;
-    margin-left: 0;
-    background-color: #FFF;
-    padding: 5px 5px 5px 5px;
-    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #888;
-    border:1px solid #e17009;
-    border-radius: 0px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    z-index:9999;
-    overflow:scroll;
-
+	position: absolute;
+	top: 200px;
+	left: 270px;
+	width: 320px;
+	height: 375px;
+	margin-right: 0;
+	margin-left: 0;
+	background-color: #FFF;
+	padding: 5px 5px 5px 5px;
+	font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #888;
+	border: 1px solid #e17009;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	z-index: 9999;
+	overflow: scroll;
 }
 
 .menuPages {
-  overflow: hidden;
-  background-color: #333;
+	overflow: hidden;
+	background-color: #333;
 }
 
 .menuPages a {
-  float: left;
-  display: block;
-  color: #e17009;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+	float: left;
+	display: block;
+	color: #e17009;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
 }
 
 .menuPages a:hover {
-  background-color: #ddd;
-  color: black;
+	background-color: #ddd;
+	color: black;
 }
 
 .menuPages a.active {
-    background-color: #4CAF50;
-    color: white;
+	background-color: #4CAF50;
+	color: white;
 }
 </style>
 <script type="text/javascript">
 var map;
 var osm = new OpenLayers.Layer.OSM("Base Map");
+var color;
+var no_data;
+
 $(document)
 .ready(
 		function() {
 			map = new OpenLayers.Map(
-                    {
-                            div: "mapDiv",
-                            layers: [osm],
-                            controls: [ new OpenLayers.Control.Navigation({ dragPanOptions: { enableKinetic: true } }),
-                                   new OpenLayers.Control.PanZoom(),
-                                   new OpenLayers.Control.LayerSwitcher(),
-                                   new OpenLayers.Control.ScaleLine({div: document.getElementById("scale")}),
-                                   new OpenLayers.Control.Attribution()],
-                                                        center: [0, 0],
-                                                        zoom: 3
-                    });
+                {
+                    div: "mapDiv",
+                    layers: [osm],
+                    controls: [ new OpenLayers.Control.Navigation({ dragPanOptions: { enableKinetic: true } }),
+                           new OpenLayers.Control.PanZoom(),
+                           new OpenLayers.Control.LayerSwitcher(),
+                           new OpenLayers.Control.ScaleLine({div: document.getElementById("scale")}),
+                           new OpenLayers.Control.Attribution()],
+                    center: [0, 0],
+                    zoom: 3
+                });
 			var ibmid = localStorage.ibmid;
 		    var password = localStorage.password;
 		    var xclientid = localStorage.xclientid;
 		    var xclientsecret = localStorage.xclientsecret;
+		    color = localStorage.color;
+            no_data = localStorage.no_data;
+            if(color == undefined) {
+                color = 'spectral';
+            }
+            if(no_data == undefined) {
+                no_data = -9999;
+            }
 		    $.ajaxSetup({
 				crossDomain: true,
 		 		headers: {
@@ -136,6 +150,8 @@ $(document)
 		    	}
 		    });
 			populateJobs();
+			// update jobs list evry 10s
+			setInterval(function() { populateJobs();}, 10000);
 });
 
 function removeAllLayers(){
@@ -179,8 +195,7 @@ function populateJobs(){
 		
 		for ( var i = 0; i < len; i++) {
 			var details = JSON.stringify(data[i].request);
-			html += '<a href="javascript:showDetails(\'' + data[i].id + '\');">' + data[i].job.id + '</a><br>';
-					
+			html += '<a href="javascript:showDetails(\'' + data[i].id + '\');">' + data[i].job.id + '</a><br>';					
 		}
 		$('#ongoingJobsDiv').html(html);
 	});
@@ -198,41 +213,46 @@ function populateJobs(){
 	  	    },
 	  	    200: function(retdata) {
 	  	    	var status = retdata.query[0].job.status;
-	  				if(status == "200" || status =="201") {
-	   		  			if(retdata.query[0].result.objref[0].mime == 'application/x-ips-wms') {
-	   		  					var data = retdata.query[0].result.objref[0];
-			   		  			
-			   		  			var geoserverUrl = data.geoserver;
-			   		  			var workspace = data.workspace;
-			   		  			var format = data.format;
-			   		  			var len = data.layers.length;
-			   		  			alert("Geoserver: " + geoserverUrl + " workspace: " + workspace + " format: " + format + " layers len: " + len);
-			   		  			for ( var i = 0; i < len; i++) {	
-			   		  				layerName = data.layers[i];
-				   		  			var newLayer = new OpenLayers.Layer.WMS(
-				   						layerName, geoserverUrl,
-				   					        {
-				   					            layers: workspace + ":" + layerName,
-				   					            format: format,
-				   					            transparent: true
-				   					        },
-				   					        {
-				   					            buffer: 0,
-				   							            displayOutsideMaxExtent: true,
-				   							         displayInLayerSwitcher : true,
-				   							            isBaseLayer: false,
-				   							            yx : {'EPSG:4326' : true},
-				   							           visibility: true
-				   							        } 
-				   							    );
-				   					map.addLayer(newLayer);
-			   		  			}
-	   		  				} else {
-	   		  					alert("Mime type: " + retdata.query[0].result.objref[0].mime + ", geoserver is " + retdata.query[0].result.objref[0].geoserver);
-	   		  				}
-	   		  			} else {
-	   		  				alert("Job was not successful! " + retdata.query[0].job.message);
+  				if(status == "200" || status =="201") {
+  					if(retdata.query[0].result.refs[0].mime == 'application/x-ibm-wms') {
+  		  					var data = retdata.query[0].result.refs[0];
+		   		  			
+	   		  			var geoserverUrl = data.geoserver;
+	   		  			var workspace = data.workspace;
+	   		  			var format = data.format;
+	   		  			var len = data.layers.length;
+	   		  			console.log("Geoserver: " + geoserverUrl + " workspace: " + workspace + " format: " + format + " layers len: " + len);
+	   		  			for ( var i = 0; i < len; i++) {	
+	   		  				layerName = data.layers[i].name;
+                              
+                              	var sld = gsurl + '/getSld?layer=' + workspace + ":" + layerName + '&color=' + color + '&min=' + data.layers[i].min + '&max=' + data.layers[i].max + '&no_data=' + no_data;
+	   		  				console.log('sld: ' + sld);
+		   		  			var newLayer = new OpenLayers.Layer.WMS(
+		   						layerName, 
+		   						geoserverUrl,
+	   					        {
+	   					            layers: workspace + ":" + layerName,
+	   					            format: format,
+	   					            sld: sld,
+	   					            transparent: true
+	   					        },
+	   					        {
+	   					            buffer: 0,
+	   							    displayOutsideMaxExtent: true,
+	   							    displayInLayerSwitcher : true,
+	   							    isBaseLayer: false,
+	   							    yx : {'EPSG:4326' : true},
+	   							    visibility: true
+	   							} 
+		   					);
+		   					map.addLayer(newLayer);
 	   		  			}
+  		  				} else {
+  		  					alert("Mime type: " + retdata.query[0].result.refs[0].mime + ", geoserver is " + retdata.query[0].result.refs[0].geoserver);
+  		  				}
+  		  			} else {
+  		  				alert("Job was not successful! " + retdata.query[0].job.message);
+  		  			}
 	  	  }
 	 	}
      });
@@ -265,6 +285,7 @@ function closePopup() {
 <body>
 <div class="menuPages" id="menuPagesDiv">
   <a href="${pageContext.request.contextPath}/settings.jsp">Settings</a>
+  <a href="${pageContext.request.contextPath}/colorSettings.jsp">Color Settings</a>
   <a href="${pageContext.request.contextPath}/simpleQuery.jsp">Query</a>
   <a href="${pageContext.request.contextPath}/simpleJobs.jsp">Jobs</a>
 </div>

@@ -5,6 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Login</title>
+<jsp:include page="base.jsp" />
 <jsp:include page="import.jsp" />
 <script type="text/javascript">
  function login(){	
@@ -40,16 +41,16 @@ Please login: <br>
 <input type="hidden" name="action" value="LOGIN"/>
 <table>
 <tr>
-<td>IBM Id:</td><td><input type="text" name="ibmid" id="ibmid" value="IBMid"></td>
+<td>IBM Id:</td><td><input type="text" name="ibmid" id="ibmid" value="ips.app@outlook.com"></td>
 </tr>
 <tr>
-<td>Password:</td><td><input type="password" name="password" id="password" value="IBMid Password"></td>
+<td>Password:</td><td><input type="password" name="password" id="password" value="ips.app1"></td>
 </tr>
 <tr>
-<td>X-Client Id:</td><td><input type="text" name="xclientid" id="xclientid" value="API Client Id"></td>
+<td>X-Client Id:</td><td><input type="text" name="xclientid" id="xclientid" value="5c20d153-09ad-40e3-9387-124cd132bc42"></td>
 </tr>
 <tr>
-<td>X-Client Secret:</td><td><input type="password" name="xclientsecret" id="xclientsecret" value="API Client Secret"></td>
+<td>X-Client Secret:</td><td><input type="password" name="xclientsecret" id="xclientsecret" value="R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"></td>
 </tr>
 <tr>
 <td colspan=2 align="right"><input type="submit" name="loginButton" id="loginButton" value="Login"></td>

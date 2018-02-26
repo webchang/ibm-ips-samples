@@ -5,7 +5,9 @@ Sample browser based client that shows how to use IPS API.
 * settings.jsp shows how to get settings
 * simpleQuery.jsp shows how to get datasets, datalayers, polygons and then submit a query
 * simpleJobs.jsp shows how to get status of queries if jobs are completed or not and how to get results for a completed job and overlay the results on OpenLayers map
-* import.jsp shows the simple libraries needed to run the sample and also the URL used to access the IPS API
+colorSettings.jsp allows user to save local preferences for color settings while displaying overlays on the map on simpleJobs.jsp
+import.jsp shows the simple libraries needed to run the sample and also the URL used to access the IPS API
+style.css and settings.css have some simple styles defined
 
 To see a running demo, use the following URL:
 http://169.48.109.214:30466/openlayers-clients/login.jsp
@@ -29,3 +31,5 @@ You will first get a popup saying your query is being processed and once you cli
 
 Now click on the Jobs page, http://169.48.109.214:30466/openlayers-clients/simpleJobs.jsp
 You should be able to see your job id in the section Ongoing Jobs. Clicking on the job id will show the query related to it and also the status. Once your job completes, you should be able to see it in the Completed Jobs section (the page needs to be refreshed manually to keep the demo code simple). Clicking on the completed job will either show the status of the job if failed or retrieve the published layers from geoserver and display it as overlays on the OpenStreetMap.
+
+If you want to change the colors used in the overlay, use colorSettings.jsp to change the color table being used.

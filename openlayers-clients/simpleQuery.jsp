@@ -5,35 +5,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Query</title>
+<jsp:include page="base.jsp" />
 <jsp:include page="import.jsp" />
-<style>
-body {margin:0;}
 
-.menuPages {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.menuPages a {
-  float: left;
-  display: block;
-  color: #e17009;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.menuPages a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.menuPages a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-</style>
 <script type="text/javascript">
 // Populate DatasetLists
 function populateDatasetList() {    
@@ -186,7 +160,7 @@ function submitQuery() {
 	dataLayerParams[0].temporal = layerParams;
 	
 	queryParams.datalayer = dataLayerParams;
-	queryParams.mime = 'x-ips-wms';
+	queryParams.mime = 'x-ibm-wms';
 	var queryJSON = JSON.stringify(queryParams);
 	//alert(queryJSON);
 	$.ajax(baseurl + '/v1/queries', {
@@ -232,6 +206,7 @@ function changeInterval(index, temporal) {
 <body>
 <div class="menuPages" id="menuPagesDiv">
   <a href="${pageContext.request.contextPath}/settings.jsp">Settings</a>
+  <a href="${pageContext.request.contextPath}/colorSettings.jsp">Color Settings</a>
   <a href="${pageContext.request.contextPath}/simpleQuery.jsp">Query</a>
   <a href="${pageContext.request.contextPath}/simpleJobs.jsp">Jobs</a>
 </div>
