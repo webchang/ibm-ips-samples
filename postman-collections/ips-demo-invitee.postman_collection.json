@@ -79,7 +79,7 @@
 			},
 			"response": [
 				{
-					"id": "ccd72e18-6d38-4023-8490-e82abe3d655c",
+					"id": "6de8dc42-c9a0-4342-9d29-60dc539dea6f",
 					"name": "20170106",
 					"originalRequest": {
 						"method": "POST",
@@ -224,7 +224,7 @@
 					"body": "{\"tempobj\":[{\"id\":\"b286c218b2dc1fef229c650e74db1e3c\",\"name\":\"test\",\"expiration\":\"2017-01-07T02:13:01.000Z\",\"tempobjref\":{\"mime\":\"application/octet-stream\",\"puturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=37498aa4d6d7f55356391cb66dd168a45d603062&temp_url_expires=1483755181\",\"geturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=fa144790cd2c00a67f5ef3625cbd1bdba6471000&temp_url_expires=1483755181\"}}]}"
 				},
 				{
-					"id": "edaff48b-9976-4b04-af25-2f525a37371c",
+					"id": "bd3e0953-9783-4bcd-ab02-476fa1594c2a",
 					"name": "20160106",
 					"originalRequest": {
 						"method": "POST",
@@ -443,7 +443,7 @@
 			},
 			"response": [
 				{
-					"id": "00c83858-607e-40c3-a01d-8687f3b7ddad",
+					"id": "c3cfdd12-163c-468c-89c0-d2721f937cd9",
 					"name": "20170106",
 					"originalRequest": {
 						"method": "POST",
@@ -588,7 +588,7 @@
 					"body": "{\"tempobj\":[{\"id\":\"b286c218b2dc1fef229c650e74db1e3c\",\"name\":\"test\",\"expiration\":\"2017-01-07T02:13:01.000Z\",\"tempobjref\":{\"mime\":\"application/octet-stream\",\"puturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=37498aa4d6d7f55356391cb66dd168a45d603062&temp_url_expires=1483755181\",\"geturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=fa144790cd2c00a67f5ef3625cbd1bdba6471000&temp_url_expires=1483755181\"}}]}"
 				},
 				{
-					"id": "3652b069-9634-4218-96a8-2f9cfa3bc009",
+					"id": "c788515a-7397-4324-bad8-48b44eb16e8f",
 					"name": "20160106",
 					"originalRequest": {
 						"method": "POST",
@@ -808,7 +808,7 @@
 			},
 			"response": [
 				{
-					"id": "17446da3-6d57-4113-a366-5f89058ccd0d",
+					"id": "1000acde-7ec1-4874-bb60-0d6e3a62047b",
 					"name": "20170106",
 					"originalRequest": {
 						"method": "POST",
@@ -953,7 +953,7 @@
 					"body": "{\"tempobj\":[{\"id\":\"b286c218b2dc1fef229c650e74db1e3c\",\"name\":\"test\",\"expiration\":\"2017-01-07T02:13:01.000Z\",\"tempobjref\":{\"mime\":\"application/octet-stream\",\"puturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=37498aa4d6d7f55356391cb66dd168a45d603062&temp_url_expires=1483755181\",\"geturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=fa144790cd2c00a67f5ef3625cbd1bdba6471000&temp_url_expires=1483755181\"}}]}"
 				},
 				{
-					"id": "501726b9-8b8e-4485-92ad-3acb1cd08235",
+					"id": "83d07cd8-6465-49a0-81ee-c5b6232adf2f",
 					"name": "20160106",
 					"originalRequest": {
 						"method": "POST",
@@ -1172,7 +1172,7 @@
 			},
 			"response": [
 				{
-					"id": "bb33e57f-bce2-424d-a652-0d355557ad9e",
+					"id": "a7e6c091-37fa-47e9-91ea-51ecced3eb2f",
 					"name": "20170106",
 					"originalRequest": {
 						"method": "POST",
@@ -1317,7 +1317,7 @@
 					"body": "{\"tempobj\":[{\"id\":\"b286c218b2dc1fef229c650e74db1e3c\",\"name\":\"test\",\"expiration\":\"2017-01-07T02:13:01.000Z\",\"tempobjref\":{\"mime\":\"application/octet-stream\",\"puturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=37498aa4d6d7f55356391cb66dd168a45d603062&temp_url_expires=1483755181\",\"geturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=fa144790cd2c00a67f5ef3625cbd1bdba6471000&temp_url_expires=1483755181\"}}]}"
 				},
 				{
-					"id": "4269c19d-89d4-4adb-a9c0-97e5ddfd94fd",
+					"id": "abf2f552-f3f1-4cdd-99cd-cb0060b1d73d",
 					"name": "20160106",
 					"originalRequest": {
 						"method": "POST",
@@ -1535,7 +1535,7 @@
 			},
 			"response": [
 				{
-					"id": "a343558a-5ed5-4574-9920-8793fbc89112",
+					"id": "5e08feea-6085-4df1-933f-9ac815125975",
 					"name": "20170106",
 					"originalRequest": {
 						"method": "POST",
@@ -1680,7 +1680,7 @@
 					"body": "{\"tempobj\":[{\"id\":\"b286c218b2dc1fef229c650e74db1e3c\",\"name\":\"test\",\"expiration\":\"2017-01-07T02:13:01.000Z\",\"tempobjref\":{\"mime\":\"application/octet-stream\",\"puturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=37498aa4d6d7f55356391cb66dd168a45d603062&temp_url_expires=1483755181\",\"geturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=fa144790cd2c00a67f5ef3625cbd1bdba6471000&temp_url_expires=1483755181\"}}]}"
 				},
 				{
-					"id": "86822482-d01c-4897-9bfa-a40c1926b959",
+					"id": "430a47f3-fd00-4fa1-a3c6-e8b6bff42459",
 					"name": "20160106",
 					"originalRequest": {
 						"method": "POST",
@@ -1898,7 +1898,7 @@
 			},
 			"response": [
 				{
-					"id": "0b21b393-aeb2-433d-a570-226a8d9a89e8",
+					"id": "d74c75a4-0411-4312-959c-a0b66d7181e6",
 					"name": "20170106",
 					"originalRequest": {
 						"method": "POST",
@@ -2043,7 +2043,371 @@
 					"body": "{\"tempobj\":[{\"id\":\"b286c218b2dc1fef229c650e74db1e3c\",\"name\":\"test\",\"expiration\":\"2017-01-07T02:13:01.000Z\",\"tempobjref\":{\"mime\":\"application/octet-stream\",\"puturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=37498aa4d6d7f55356391cb66dd168a45d603062&temp_url_expires=1483755181\",\"geturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=fa144790cd2c00a67f5ef3625cbd1bdba6471000&temp_url_expires=1483755181\"}}]}"
 				},
 				{
-					"id": "674e2be6-18f7-43b5-a138-2ff72870ad86",
+					"id": "ba75ceb4-f2c0-4a75-b9ba-6ee97edce256",
+					"name": "20160106",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"name": "Authorization",
+								"value": "Basic d3VqZXRpZW5AZ21haWwuY29tOnBhaXJzMi5nbw=="
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "The mime type of this content"
+							},
+							{
+								"key": "x-ibm-client-id",
+								"value": "b381bc10-e0d5-468a-aebc-d91311e9bd23"
+							},
+							{
+								"key": "x-ibm-client-secret",
+								"value": "U7xI1rP5wO7rU3kC5dM7aW2oQ5uT3fJ2jD8aF7mU0wR6eH5fW3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \n\t\"name\": \"analytics square interval pql\",\n\t\"datalayer\": [\"51\"],\n\t\"spatial\": {\n  \t\t\"type\": \"rectangle\",\n  \t\t\"rectangle\": {\n  \t\t\t\"latsw\": \"-4.3\",\n  \t\t\t\"longsw\": \"109.6\",\n  \t\t\t\"latne\": 1.7,\n  \t\t\t\"longne\": 117.9\n  \t\t}\n  \t},\n  \t\"temporal\": [\"10/17/16 20:00\"],\n  \t\"pql\": \"51GT5000AND26015LT0.5\"\n}"
+						},
+						"url": {
+							"raw": "https://dev.api.ibm.com/pairs/development/v1/analytics",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"api",
+								"ibm",
+								"com"
+							],
+							"path": [
+								"pairs",
+								"development",
+								"v1",
+								"analytics"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+							"description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID",
+							"description": "Lets a server whitelist headers that browsers are allowed to access."
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "Keep-Alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": "The type of encoding used on the data."
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sat, 07 Jan 2017 02:30:43 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						},
+						{
+							"name": "X-Backside-Transport",
+							"key": "X-Backside-Transport",
+							"value": "OK OK",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-Global-Transaction-ID",
+							"key": "X-Global-Transaction-ID",
+							"value": "71015205",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-Ibm-Id",
+							"key": "X-Ibm-Id",
+							"value": "wujetien@gmail.com",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "X-RateLimit-Limit",
+							"key": "X-RateLimit-Limit",
+							"value": "name=per-minute,100;",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-RateLimit-Remaining",
+							"key": "X-RateLimit-Remaining",
+							"value": "name=per-minute,98;",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": "899",
+					"body": "{\n  \"id\": \"c91b17d4520e0bed92362b42e4172549\",\n  \"name\": \"analytics square interval pql\"\n}"
+				}
+			]
+		},
+		{
+			"name": "/datasets/{id}",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n      \"name\": \"new result test for exploration\",\n      \"spatial\": {\n        \"type\": \"point\",\n        \"point\": [\n          {\n            \"lat\": \"51.506\",\n            \"long\": \"-0.114\"\n          }\n        ]\n      },\n      \"datalayer\": [\n        {\n          \"id\": \"16100\",\n          \"temporal\": [\n            [\n              \"2016-02-01\"\n            ]\n          ]\n        }\n      ]\n    }"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/datasets/25",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"datasets",
+						"25"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "c527c3f1-43f1-44ea-8b08-19d3c43471e4",
+					"name": "20170106",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"name": "Authorization",
+								"value": "Basic d3VqZXRpZW5AZ21haWwuY29tOnBhaXJzMi5nbw=="
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "The mime type of this content"
+							},
+							{
+								"key": "x-ibm-client-id",
+								"value": "b381bc10-e0d5-468a-aebc-d91311e9bd23"
+							},
+							{
+								"key": "x-ibm-client-secret",
+								"value": "U7xI1rP5wO7rU3kC5dM7aW2oQ5uT3fJ2jD8aF7mU0wR6eH5fW3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \n\t\"name\": \"test\",\n  \"lifespan\": \"900\"\n\n}"
+						},
+						"url": {
+							"raw": "https://dev.api.ibm.com/pairs/development/v1/tempobjs",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"api",
+								"ibm",
+								"com"
+							],
+							"path": [
+								"pairs",
+								"development",
+								"v1",
+								"tempobjs"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "Keep-Alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sat, 07 Jan 2017 01:58:01 GMT",
+							"description": ""
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": ""
+						},
+						{
+							"name": "X-Backside-Transport",
+							"key": "X-Backside-Transport",
+							"value": "OK OK",
+							"description": ""
+						},
+						{
+							"name": "X-Global-Transaction-ID",
+							"key": "X-Global-Transaction-ID",
+							"value": "52083885",
+							"description": ""
+						},
+						{
+							"name": "X-Ibm-Id",
+							"key": "X-Ibm-Id",
+							"value": "wujetien@gmail.com",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Limit",
+							"key": "X-RateLimit-Limit",
+							"value": "name=per-minute,100;",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Remaining",
+							"key": "X-RateLimit-Remaining",
+							"value": "name=per-minute,99;",
+							"description": ""
+						}
+					],
+					"cookie": [],
+					"responseTime": "1517",
+					"body": "{\"tempobj\":[{\"id\":\"b286c218b2dc1fef229c650e74db1e3c\",\"name\":\"test\",\"expiration\":\"2017-01-07T02:13:01.000Z\",\"tempobjref\":{\"mime\":\"application/octet-stream\",\"puturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=37498aa4d6d7f55356391cb66dd168a45d603062&temp_url_expires=1483755181\",\"geturl\":\"https://dal.objectstorage.open.softlayer.com/v1/AUTH_aee6f0706ea54ff280cb8b21c91442fc/tempobjs/b286c218b2dc1fef229c650e74db1e3c?temp_url_sig=fa144790cd2c00a67f5ef3625cbd1bdba6471000&temp_url_expires=1483755181\"}}]}"
+				},
+				{
+					"id": "056e279b-c54a-4857-a460-07bb13af1990",
 					"name": "20160106",
 					"originalRequest": {
 						"method": "POST",
@@ -2261,7 +2625,7 @@
 			},
 			"response": [
 				{
-					"id": "d14029e3-c918-448c-a63b-9af0c682f151",
+					"id": "353c3791-ad57-4cd3-87e5-d066dc87a164",
 					"name": "20161216",
 					"originalRequest": {
 						"method": "GET",
@@ -2480,7 +2844,7 @@
 			},
 			"response": [
 				{
-					"id": "bf2e1849-506f-4ba3-9e00-030d10700049",
+					"id": "76a8eb9a-4f4d-4416-9ed4-d513356626a3",
 					"name": "20161216",
 					"originalRequest": {
 						"method": "GET",
@@ -2698,7 +3062,7 @@
 			},
 			"response": [
 				{
-					"id": "5d2f4d05-6295-4d7b-8a8d-1d0912f1aadc",
+					"id": "0c0dec7a-1a09-43d2-bbf0-b62cdbb566d8",
 					"name": "20161216",
 					"originalRequest": {
 						"method": "GET",
@@ -2917,7 +3281,7 @@
 			},
 			"response": [
 				{
-					"id": "601f9ded-4de3-438a-9a84-fbbd1e69d5b2",
+					"id": "0ea95517-39d6-4697-a21e-55caab0941a7",
 					"name": "20161216",
 					"originalRequest": {
 						"method": "GET",
@@ -3136,7 +3500,7 @@
 			"response": []
 		},
 		{
-			"name": "/queries (polygon) zip",
+			"name": "/queries (polygon zip)",
 			"request": {
 				"auth": {
 					"type": "basic",
@@ -3208,7 +3572,7 @@
 			"response": []
 		},
 		{
-			"name": "/queries (polygon) wms",
+			"name": "/queries (polygon wms)",
 			"request": {
 				"auth": {
 					"type": "basic",
@@ -3359,7 +3723,7 @@
 			"response": []
 		},
 		{
-			"name": "/jobs/{id} point query",
+			"name": "/jobs/{id} (point)",
 			"request": {
 				"auth": {
 					"type": "basic",
@@ -3413,7 +3777,7 @@
 					"raw": "{ \"name\": \"point query\",\r\n  \"spatial\":\r\n{ \"type\": \"point\",\r\n      \"point\": [ { \"lat\": \"51.506\", \"long\": \"-0.114\" } ]\r\n},\r\n  \"datalayer\": [\r\n{ \"id\": \"5\",\r\n  \"temporal\": [ [ \"2016-02-01T00:00:00.000Z\" ] ]\r\n}\r\n  ]\r\n}"
 				},
 				"url": {
-					"raw": "https://api.ibm.com/pairs/run/v1/jobs/5af9de2d7f2ae5f38ac60ab815ac8dd2",
+					"raw": "https://api.ibm.com/pairs/run/v1/jobs/418ed8cccd00175495ea3967c812f3ba",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -3425,14 +3789,14 @@
 						"run",
 						"v1",
 						"jobs",
-						"5af9de2d7f2ae5f38ac60ab815ac8dd2"
+						"418ed8cccd00175495ea3967c812f3ba"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "/jobs/{id} polygon wms",
+			"name": "/jobs/{id} (point) copy",
 			"request": {
 				"auth": {
 					"type": "basic",
@@ -3486,7 +3850,7 @@
 					"raw": "{ \"name\": \"point query\",\r\n  \"spatial\":\r\n{ \"type\": \"point\",\r\n      \"point\": [ { \"lat\": \"51.506\", \"long\": \"-0.114\" } ]\r\n},\r\n  \"datalayer\": [\r\n{ \"id\": \"5\",\r\n  \"temporal\": [ [ \"2016-02-01T00:00:00.000Z\" ] ]\r\n}\r\n  ]\r\n}"
 				},
 				"url": {
-					"raw": "https://api.ibm.com/pairs/run/v1/jobs/5af9de2d7f2ae5f38ac60ab815ac8dd2",
+					"raw": "https://api.ibm.com/pairs/run/v1/jobs/418ed8cccd00175495ea3967c812f3ba",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -3498,7 +3862,80 @@
 						"run",
 						"v1",
 						"jobs",
-						"5af9de2d7f2ae5f38ac60ab815ac8dd2"
+						"418ed8cccd00175495ea3967c812f3ba"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/jobs/{id} (polygon wms)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"name\": \"point query\",\r\n  \"spatial\":\r\n{ \"type\": \"point\",\r\n      \"point\": [ { \"lat\": \"51.506\", \"long\": \"-0.114\" } ]\r\n},\r\n  \"datalayer\": [\r\n{ \"id\": \"5\",\r\n  \"temporal\": [ [ \"2016-02-01T00:00:00.000Z\" ] ]\r\n}\r\n  ]\r\n}"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/jobs/4a4afaf44c070eb5bb475a69f224cb88",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"jobs",
+						"4a4afaf44c070eb5bb475a69f224cb88"
 					]
 				}
 			},
@@ -3650,7 +4087,7 @@
 			"response": []
 		},
 		{
-			"name": "/queries/{id} point",
+			"name": "/queries/{id} (point)",
 			"request": {
 				"auth": {
 					"type": "basic",
@@ -3704,7 +4141,7 @@
 					"raw": "{ \"name\": \"point query\",\r\n  \"spatial\":\r\n{ \"type\": \"point\",\r\n      \"point\": [ { \"lat\": \"51.506\", \"long\": \"-0.114\" } ]\r\n},\r\n  \"datalayer\": [\r\n{ \"id\": \"5\",\r\n  \"temporal\": [ [ \"2016-02-01T00:00:00.000Z\" ] ]\r\n}\r\n  ]\r\n}"
 				},
 				"url": {
-					"raw": "https://api.ibm.com/pairs/run/v1/queries/52042f0de1fa133735caacee01292028",
+					"raw": "https://api.ibm.com/pairs/run/v1/queries/1d12f4a81c5dbf74fda002d971a673f8",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -3716,14 +4153,14 @@
 						"run",
 						"v1",
 						"queries",
-						"52042f0de1fa133735caacee01292028"
+						"1d12f4a81c5dbf74fda002d971a673f8"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "/queries/{id} polygon zip",
+			"name": "/queries/{id} (polygon zip)",
 			"request": {
 				"auth": {
 					"type": "basic",
@@ -3777,7 +4214,7 @@
 					"raw": "{ \"name\": \"point query\",\r\n  \"spatial\":\r\n{ \"type\": \"point\",\r\n      \"point\": [ { \"lat\": \"51.506\", \"long\": \"-0.114\" } ]\r\n},\r\n  \"datalayer\": [\r\n{ \"id\": \"5\",\r\n  \"temporal\": [ [ \"2016-02-01T00:00:00.000Z\" ] ]\r\n}\r\n  ]\r\n}"
 				},
 				"url": {
-					"raw": "https://api.ibm.com/pairs/run/v1/queries/76a467a1fb6e301f69da29ab15880e2e",
+					"raw": "https://api.ibm.com/pairs/run/v1/queries/5b46b8d401bd88bfd0d366a5359d6f0b",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -3789,14 +4226,14 @@
 						"run",
 						"v1",
 						"queries",
-						"76a467a1fb6e301f69da29ab15880e2e"
+						"5b46b8d401bd88bfd0d366a5359d6f0b"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "/queries/{id} polygon wms",
+			"name": "/queries/{id} (polygon wms)",
 			"request": {
 				"auth": {
 					"type": "basic",
@@ -3850,7 +4287,7 @@
 					"raw": "{ \"name\": \"point query\",\r\n  \"spatial\":\r\n{ \"type\": \"point\",\r\n      \"point\": [ { \"lat\": \"51.506\", \"long\": \"-0.114\" } ]\r\n},\r\n  \"datalayer\": [\r\n{ \"id\": \"5\",\r\n  \"temporal\": [ [ \"2016-02-01T00:00:00.000Z\" ] ]\r\n}\r\n  ]\r\n}"
 				},
 				"url": {
-					"raw": "https://api.ibm.com/pairs/run/v1/queries/5bbd0478b070371fb81d389a73a4a932",
+					"raw": "https://api.ibm.com/pairs/run/v1/queries/01e89ee62af7c1032e45b4d0a6011b85",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -3862,7 +4299,7 @@
 						"run",
 						"v1",
 						"queries",
-						"5bbd0478b070371fb81d389a73a4a932"
+						"01e89ee62af7c1032e45b4d0a6011b85"
 					]
 				}
 			},
@@ -3923,7 +4360,7 @@
 					"raw": "{ \"name\": \"point query\",\r\n  \"spatial\":\r\n{ \"type\": \"point\",\r\n      \"point\": [ { \"lat\": \"51.506\", \"long\": \"-0.114\" } ]\r\n},\r\n  \"datalayer\": [\r\n{ \"id\": \"5\",\r\n  \"temporal\": [ [ \"2016-02-01T00:00:00.000Z\" ] ]\r\n}\r\n  ]\r\n}"
 				},
 				"url": {
-					"raw": "https://api.ibm.com/pairs/run/v1/queries/b8a215730176bd6f1050b93f0101f3ed",
+					"raw": "https://api.ibm.com/pairs/run/v1/queries/e55bdbdd64e05bc20b47d6fdd4a11b65",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -3935,7 +4372,7 @@
 						"run",
 						"v1",
 						"queries",
-						"b8a215730176bd6f1050b93f0101f3ed"
+						"e55bdbdd64e05bc20b47d6fdd4a11b65"
 					]
 				}
 			},
@@ -4013,7 +4450,7 @@
 			},
 			"response": [
 				{
-					"id": "70b20570-51a9-4dd2-990e-b5b0b27b5467",
+					"id": "891bf1f4-cb06-4619-94ea-9cf552fcb1dc",
 					"name": "20161216",
 					"originalRequest": {
 						"method": "GET",
@@ -4232,7 +4669,7 @@
 			},
 			"response": [
 				{
-					"id": "d1e152b9-13cb-40c5-8239-854ab35d71f3",
+					"id": "3c30e6fb-2dde-4662-93ea-4b4eb793dfe4",
 					"name": "20161216",
 					"originalRequest": {
 						"method": "GET",
@@ -4451,7 +4888,7 @@
 			},
 			"response": [
 				{
-					"id": "8ec0b710-d6ea-4bc6-8a31-c7307612858d",
+					"id": "5c0b5072-5fc1-4747-a5fc-e5c5dec8f469",
 					"name": "20161216",
 					"originalRequest": {
 						"method": "GET",
@@ -4670,7 +5107,7 @@
 			},
 			"response": [
 				{
-					"id": "aefc58ae-810e-41d8-80fe-e05cd709ffdb",
+					"id": "6c238f56-bf8a-442e-9d45-603481dfb285",
 					"name": "20161216",
 					"originalRequest": {
 						"method": "GET",
@@ -4888,7 +5325,7 @@
 			},
 			"response": [
 				{
-					"id": "3b179402-8446-40bb-865e-3ad8beba6112",
+					"id": "2569f5da-649b-475b-8a2f-e0317ad00de8",
 					"name": "20161216",
 					"originalRequest": {
 						"method": "GET",
@@ -5089,7 +5526,7 @@
 					"raw": "[{\"name\": \"project\", \"value\": \"demo\"}]"
 				},
 				"url": {
-					"raw": "https://api.ibm.com/pairs/run/v1/tempobjs/7998cc75198c41d0e262fffde91a6413",
+					"raw": "https://api.ibm.com/pairs/run/v1/tempobjs/ae8607b76284c09a4a43e49a518d21e4",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -5101,13 +5538,231 @@
 						"run",
 						"v1",
 						"tempobjs",
-						"7998cc75198c41d0e262fffde91a6413"
+						"ae8607b76284c09a4a43e49a518d21e4"
 					]
 				}
 			},
 			"response": [
 				{
-					"id": "d852458d-b94c-4499-baeb-39603519e6bd",
+					"id": "a185af23-015c-4ba3-8703-91d68c4b0607",
+					"name": "20161216",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"name": "Authorization",
+								"value": "Basic bXlwYWlyc3Rlc3QxQG1haWxpbmF0b3IuY29tOnphcTEyd3N4Li4="
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "The mime type of this content"
+							},
+							{
+								"key": "x-ibm-client-id",
+								"value": "b381bc10-e0d5-468a-aebc-d91311e9bd23"
+							},
+							{
+								"key": "x-ibm-client-secret",
+								"value": "U7xI1rP5wO7rU3kC5dM7aW2oQ5uT3fJ2jD8aF7mU0wR6eH5fW3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://dev.api.ibm.com/pairs/development/datasets/13",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"api",
+								"ibm",
+								"com"
+							],
+							"path": [
+								"pairs",
+								"development",
+								"datasets",
+								"13"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "Keep-Alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sat, 17 Dec 2016 04:07:05 GMT",
+							"description": ""
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": ""
+						},
+						{
+							"name": "X-Backside-Transport",
+							"key": "X-Backside-Transport",
+							"value": "OK OK",
+							"description": ""
+						},
+						{
+							"name": "X-Global-Transaction-ID",
+							"key": "X-Global-Transaction-ID",
+							"value": "7564105",
+							"description": ""
+						},
+						{
+							"name": "X-Ibm-Pairs-Api-Userid",
+							"key": "X-Ibm-Pairs-Api-Userid",
+							"value": "api-integration",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Limit",
+							"key": "X-RateLimit-Limit",
+							"value": "name=per-minute,100;",
+							"description": ""
+						},
+						{
+							"name": "X-RateLimit-Remaining",
+							"key": "X-RateLimit-Remaining",
+							"value": "name=per-minute,99;",
+							"description": ""
+						}
+					],
+					"cookie": [],
+					"responseTime": "1541",
+					"body": "{ \"dataset\": {\"id\":13,\"key\":\"cimis-raster\",\"name\":\"California weather condition measurements\",\"level\":15,\"layers\":[{\"id\":134,\"name\":\"Daily clearness factor\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":null,\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":133,\"name\":\"Daily clear sky solar radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":136,\"name\":\"Daily maximum temperature\",\"crs\":\"\",\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":137,\"name\":\"Daily mean dew point temperature\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":135,\"name\":\"Daily minimum temperature\",\"crs\":\"\",\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"K\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":132,\"name\":\"Daily net long-wave radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":130,\"name\":\"Daily reference evapotranspiration\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"mm day-1\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":131,\"name\":\"Daily solar radiation\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"W m-2\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"},{\"id\":138,\"name\":\"Daily wind speed\",\"crs\":null,\"shortKey\":null,\"interval\":86400,\"unitsbl\":\"m s-1\",\"formula\":null,\"status\":\"ACTIVE\",\"avroType\":\"fl\"}],\"crs\":null,\"ftpServer\":null,\"ftpUser\":null,\"tempCoverStart\":1262322000000,\"tempCoverEnd\":null,\"areaCover\":\"California\"} }"
+				}
+			]
+		},
+		{
+			"name": "/tempobjs",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic cm9uZy5jaGFuZ0BsaXZlLmNvbTpwYWlyczIuZ28="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\"name\": \"project\", \"value\": \"demo\"}]"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/tempobjs",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"tempobjs"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "807c10e2-f343-4423-9d16-b21aa55a2dcd",
 					"name": "20161216",
 					"originalRequest": {
 						"method": "GET",
@@ -5326,7 +5981,7 @@
 			},
 			"response": [
 				{
-					"id": "cc28029c-85a6-42f5-b1ea-72c0dbdbe892",
+					"id": "b86d6676-e667-4dc1-a78f-7b2b240c1632",
 					"name": "20161216",
 					"originalRequest": {
 						"method": "GET",
@@ -5671,7 +6326,7 @@
 					"raw": "{\r\n\t\"name\": \"point exploration theme\",\r\n\t\"spatial\": {\r\n    \t\"type\": \"point\",\r\n    \t\"point\": [\r\n    \t\t{\r\n        \t\t\"lat\": \"41.208912\",\r\n        \t\t\"long\": \"-73.804661\"\r\n        \t}\r\n    \t]\r\n\t},\r\n\t\"datalayer\": [\r\n    \t{\r\n    \t\t\"id\": \"25001\",\r\n        \t\"temporal\": [\r\n        \t\t[\r\n            \t\t\"2016-02-01\"\r\n        \t\t]\r\n        \t]\r\n    \t}\r\n\t]\r\n}"
 				},
 				"url": {
-					"raw": "https://api.ibm.com/pairs/run/v1/explorations/f0f67c1194f57dce01d01327c7b952fd",
+					"raw": "https://api.ibm.com/pairs/run/v1/explorations/1edb69e965e3855cf0dcfd145f21d9b0",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -5683,7 +6338,7 @@
 						"run",
 						"v1",
 						"explorations",
-						"f0f67c1194f57dce01d01327c7b952fd"
+						"1edb69e965e3855cf0dcfd145f21d9b0"
 					]
 				}
 			},
@@ -5744,7 +6399,7 @@
 					"raw": "{\r\n\t\"name\": \"point exploration project\"\r\n}"
 				},
 				"url": {
-					"raw": "https://api.ibm.com/pairs/run/v1/explorations/f0f67c1194f57dce01d01327c7b952fd",
+					"raw": "https://api.ibm.com/pairs/run/v1/explorations/1edb69e965e3855cf0dcfd145f21d9b0",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -5756,7 +6411,7 @@
 						"run",
 						"v1",
 						"explorations",
-						"f0f67c1194f57dce01d01327c7b952fd"
+						"1edb69e965e3855cf0dcfd145f21d9b0"
 					]
 				}
 			},
@@ -5814,7 +6469,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{ \n  \"name\": \"exploration result (point)\",\n  \"parent\": \"66e317323365f7528c12e0249bb95ac1\"\n}"
+					"raw": "{ \n  \"name\": \"exploration result (point)\",\n  \"parent\": \"2defcf950e92d7ca55e1adf93a119ede\"\n}"
 				},
 				"url": {
 					"raw": "https://api.ibm.com/pairs/run/v1/results",
@@ -5889,7 +6544,7 @@
 					"raw": "{ \"name\": \"point query\",\r\n  \"spatial\":\r\n{ \"type\": \"point\",\r\n      \"point\": [ { \"lat\": \"51.506\", \"long\": \"-0.114\" } ]\r\n},\r\n  \"datalayer\": [\r\n{ \"id\": \"5\",\r\n  \"temporal\": [ [ \"2016-02-01T00:00:00.000Z\" ] ]\r\n}\r\n  ]\r\n}"
 				},
 				"url": {
-					"raw": "https://api.ibm.com/pairs/run/v1/jobs/98ef6715238e2cb5819ec91e761dc64b",
+					"raw": "https://api.ibm.com/pairs/run/v1/jobs/0c16507c676ffcb7aae7ff73136d08c6",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -5901,7 +6556,80 @@
 						"run",
 						"v1",
 						"jobs",
-						"98ef6715238e2cb5819ec91e761dc64b"
+						"0c16507c676ffcb7aae7ff73136d08c6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/results/{id}",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "ips.app@outlook.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ips.app1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-ibm-client-id",
+						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
+					},
+					{
+						"key": "x-ibm-client-secret",
+						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n  \"name\": \"exploration result (point)\",\n  \"parent\": \"cc2f3e5a83bae2dfa097d695ab31d152\"\n}"
+				},
+				"url": {
+					"raw": "https://api.ibm.com/pairs/run/v1/results/1b2cb90dfc46edd7a1109ee36ac52273",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ibm",
+						"com"
+					],
+					"path": [
+						"pairs",
+						"run",
+						"v1",
+						"results",
+						"1b2cb90dfc46edd7a1109ee36ac52273"
 					]
 				}
 			},
@@ -6006,7 +6734,7 @@
 						}
 					]
 				},
-				"method": "GET",
+				"method": "DELETE",
 				"header": [
 					{
 						"key": "Authorization",
@@ -6031,10 +6759,10 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{ \n  \"name\": \"exploration result (point)\",\n  \"parent\": \"cc2f3e5a83bae2dfa097d695ab31d152\"\n}"
+					"raw": ""
 				},
 				"url": {
-					"raw": "https://api.ibm.com/pairs/run/v1/results/75c6b3f1f76b133b35d3118e82d69acc",
+					"raw": "https://api.ibm.com/pairs/run/v1/results/1946057fe396620cd0d886a6324dc872",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -6046,7 +6774,7 @@
 						"run",
 						"v1",
 						"results",
-						"75c6b3f1f76b133b35d3118e82d69acc"
+						"1946057fe396620cd0d886a6324dc872"
 					]
 				}
 			},
@@ -6107,7 +6835,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "https://api.ibm.com/pairs/run/v1/explorations/cc2f3e5a83bae2dfa097d695ab31d152",
+					"raw": "https://api.ibm.com/pairs/run/v1/explorations/369e54b4eed3c682e67a73b36e07bac4",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -6119,80 +6847,7 @@
 						"run",
 						"v1",
 						"explorations",
-						"cc2f3e5a83bae2dfa097d695ab31d152"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "/results/{id}",
-			"request": {
-				"auth": {
-					"type": "basic",
-					"basic": [
-						{
-							"key": "username",
-							"value": "ips.app@outlook.com",
-							"type": "string"
-						},
-						{
-							"key": "password",
-							"value": "ips.app1",
-							"type": "string"
-						},
-						{
-							"key": "saveHelperData",
-							"type": "any"
-						},
-						{
-							"key": "showPassword",
-							"value": false,
-							"type": "boolean"
-						}
-					]
-				},
-				"method": "DELETE",
-				"header": [
-					{
-						"key": "Authorization",
-						"value": "Basic aXBzLmFwcEBvdXRsb29rLmNvbTppcHMyLmFwcA=="
-					},
-					{
-						"key": "Accept",
-						"value": "application/json"
-					},
-					{
-						"key": "Content-Type",
-						"value": "application/json"
-					},
-					{
-						"key": "x-ibm-client-id",
-						"value": "5c20d153-09ad-40e3-9387-124cd132bc42"
-					},
-					{
-						"key": "x-ibm-client-secret",
-						"value": "R8qP7dF2kH4fH4iH3lH2iJ7uD3yI2fQ5oY0cH8pE2kY3eN0cJ8"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": ""
-				},
-				"url": {
-					"raw": "https://api.ibm.com/pairs/run/v1/results/1946057fe396620cd0d886a6324dc872",
-					"protocol": "https",
-					"host": [
-						"api",
-						"ibm",
-						"com"
-					],
-					"path": [
-						"pairs",
-						"run",
-						"v1",
-						"results",
-						"1946057fe396620cd0d886a6324dc872"
+						"369e54b4eed3c682e67a73b36e07bac4"
 					]
 				}
 			},
