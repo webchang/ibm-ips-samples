@@ -1,17 +1,17 @@
 body {
-margin:10;
+margin:0;
 font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
-color: #888;
+color: blue;
 }
 .menuPages {
   overflow: hidden;
-  background-color: #333;
+  background-color: #b4b4b4;
 }
 
 .menuPages a {
   float: left;
   display: block;
-  color: #e17009;
+  color: blue;;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;

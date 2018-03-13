@@ -82,30 +82,6 @@ html, body {
 	overflow: scroll;
 }
 
-.menuPages {
-	overflow: hidden;
-	background-color: #333;
-}
-
-.menuPages a {
-	float: left;
-	display: block;
-	color: #e17009;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-}
-
-.menuPages a:hover {
-	background-color: #ddd;
-	color: black;
-}
-
-.menuPages a.active {
-	background-color: #4CAF50;
-	color: white;
-}
 </style>
 <script type="text/javascript">
 var map;
@@ -176,8 +152,12 @@ function populateJobs(){
 			if(data[i].job.deleted == true) {
 				//deleted job so skipping it.
 			} else {
-				html += '<a href="javascript:populateQueryjob(\'' + data[i].id + '\');">' + data[i].job.id + '</a><br>';
-			}	
+				if(data[i].request.mime == 'x-ibm-wms') {
+					html += '<a href="javascript:populateQueryjob(\'' + data[i].id + '\');">' + data[i].job.id + '</a><br>';
+				} else {
+				// different mime type, lets not show
+				}
+			}
 		}
 		$('#jobsDiv').html(html);
 	});
@@ -224,8 +204,7 @@ function populateJobs(){
 	   		  			console.log("Geoserver: " + geoserverUrl + " workspace: " + workspace + " format: " + format + " layers len: " + len);
 	   		  			for ( var i = 0; i < len; i++) {	
 	   		  				layerName = data.layers[i].name;
-                              
-                              	var sld = gsurl + '/getSld?layer=' + workspace + ":" + layerName + '&color=' + color + '&min=' + data.layers[i].min + '&max=' + data.layers[i].max + '&no_data=' + no_data;
+	   		  				var sld = gsurl + '/getSld?layer=' + workspace + ":" + layerName + '&color=' + color + '&min=' + data.layers[i].min + '&max=' + data.layers[i].max + '&no_data=' + no_data;
 	   		  				console.log('sld: ' + sld);
 		   		  			var newLayer = new OpenLayers.Layer.WMS(
 		   						layerName, 
@@ -288,6 +267,8 @@ function closePopup() {
   <a href="${pageContext.request.contextPath}/colorSettings.jsp">Color Settings</a>
   <a href="${pageContext.request.contextPath}/simpleQuery.jsp">Query</a>
   <a href="${pageContext.request.contextPath}/simpleJobs.jsp">Jobs</a>
+  <a href="${pageContext.request.contextPath}/simpleJobs2.jsp">Jobs 2</a>
+  <a href="${pageContext.request.contextPath}/videos.jsp">Sample Jobs</a>
 </div>
 <div id="jobsDiv">
 <h3>Completed Jobs</h3><br>

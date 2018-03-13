@@ -114,6 +114,8 @@ $(document)
   <a href="${pageContext.request.contextPath}/colorSettings.jsp">Color Settings</a>
   <a href="${pageContext.request.contextPath}/simpleQuery.jsp">Query</a>
   <a href="${pageContext.request.contextPath}/simpleJobs.jsp">Jobs</a>
+  <a href="${pageContext.request.contextPath}/simpleJobs2.jsp">Jobs 2</a>
+  <a href="${pageContext.request.contextPath}/videos.jsp">Sample Jobs</a>
 </div>
 <div>
 
